@@ -1,0 +1,4 @@
+all_at_aliyun\xtea.o: ../Middlewares/Third_Party/mbedTLS/library/xtea.c
+all_at_aliyun\xtea.o: ../Inc/mbedtls_config.h
+all_at_aliyun\xtea.o: ../Middlewares/Third_Party/mbedTLS/include/mbedtls/check_config.h
+all_at_aliyun\xtea.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h

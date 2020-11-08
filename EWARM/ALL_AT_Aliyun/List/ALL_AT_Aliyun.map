@@ -1,0 +1,2133 @@
+###############################################################################
+#
+# IAR ELF Linker V8.11.2.13589/W32 for ARM                23/Dec/2019  15:39:32
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Exe\ALL_AT_Aliyun.out
+#    Map file     =  
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\List\ALL_AT_Aliyun.map
+#    Command line =  
+#        -f C:\Users\ZMJ214~1\AppData\Local\Temp\EW51EB.tmp
+#        (G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\aes.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\aesni.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\arc4.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\aria.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\asn1parse.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\asn1write.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\base64.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\bignum.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\blowfish.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\camellia.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ccm.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\certs.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\cipher.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\cipher_wrap.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\cmac.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ctr_drbg.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\debug.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\des.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\dhm.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ecdh.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ecdsa.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ecjpake.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ecp.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ecp_curves.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\entropy.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\entropy_poll.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\error.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\gcm.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\havege.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\hkdf.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\Hmac-shaq.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\hmac_drbg.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\main.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\mbedtls.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\md.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\md2.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\md4.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\md5.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\md_wrap.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\memory_buffer_alloc.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\net_sockets.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\oid.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\padlock.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\pem.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\pk.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\pk_wrap.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\pkcs11.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\pkcs12.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\pkcs5.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\pkparse.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\pkwrite.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\platform.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\platform_util.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ripemd160.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\rsa.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\rsa_internal.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\sha1.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\sha256.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\sha512.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ssl_cache.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ssl_ciphersuites.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ssl_cli.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ssl_cookie.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ssl_srv.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ssl_ticket.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\ssl_tls.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\startup_stm32f407xx.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_adc.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_adc_ex.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_cortex.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_dma.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_dma_ex.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_exti.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_flash.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_flash_ex.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_flash_ramfunc.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_gpio.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_i2c.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_i2c_ex.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_msp.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_pwr.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_pwr_ex.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_rcc.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_rcc_ex.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_rtc.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_rtc_ex.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_spi.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_tim.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_tim_ex.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_hal_uart.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\stm32f4xx_it.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\system_stm32f4xx.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\threading.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\timing.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\version.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\version_features.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\x509.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\x509_create.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\x509_crl.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\x509_crt.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\x509_csr.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\x509write_crt.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\x509write_csr.o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj\xtea.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Exe\ALL_AT_Aliyun.out
+#        --map
+#        G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\List\ALL_AT_Aliyun.map
+#        --config G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM/stm32f407xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x080fffff] { ro };
+define block CSTACK with size = 72K, alignment = 8 { };
+define block HEAP with size = 20K, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x2001ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address     Size  Object
+  -------            ----        -------     ----  ------
+"A0":                                       0x188
+  .intvec            ro code  0x08000000    0x188  startup_stm32f407xx.o [1]
+                            - 0x08000188    0x188
+
+"P1":                                     0x2254d
+  .text              ro code  0x08000188   0x26c0  bignum.o [1]
+  .text              ro code  0x08002848     0x18  platform_util.o [1]
+  .text              ro code  0x08002860      0x4  heaptramp0.o [3]
+  .text              ro code  0x08002864   0x1524  dlmalloc.o [3]
+  .text              ro code  0x08003d88     0xa6  ABImemcpy.o [5]
+  .text              ro code  0x08003e2e     0x7a  lz77_init_single.o [5]
+  .text              ro code  0x08003ea8     0x66  ABImemset.o [5]
+  .text              ro code  0x08003f0e     0x1e  xencoding_8859_1.o [3]
+  .text              ro code  0x08003f2c     0x36  strlen.o [5]
+  .text              ro code  0x08003f62     0x1a  xsnprout.o [3]
+  .text              ro code  0x08003f7c     0xee  I64DivMod.o [5]
+  .text              ro code  0x0800406a      0x6  abort.o [3]
+  .text              ro code  0x08004070     0x2c  xgetmemchunk.o [3]
+  .text              ro code  0x0800409c      0x6  ABImemclr.o [5]
+  .text              ro code  0x080040a2      0xa  xsprout.o [3]
+  .text              ro code  0x080040ac      0x2  I64DivZer.o [5]
+  .rodata            const    0x080040ae      0x1  ssl_ciphersuites.o [1]
+  .text              ro code  0x080040b0     0x14  exit.o [6]
+  .text              ro code  0x080040c4   0x2238  ecp.o [1]
+  .text              ro code  0x080062fc    0xa5c  ecp_curves.o [1]
+  .text              ro code  0x08006d58   0x1d40  ssl_tls.o [1]
+  .text              ro code  0x08008a98    0x388  md.o [1]
+  .text              ro code  0x08008e20    0x694  cipher.o [1]
+  .text              ro code  0x080094b4   0x1500  sha256.o [1]
+  .text              ro code  0x0800a9b4     0x96  ABImemmove.o [5]
+  .text              ro code  0x0800aa4c     0x5e  ecdh.o [1]
+  .text              ro code  0x0800aaac    0xb74  ssl_cli.o [1]
+  .text              ro code  0x0800b620    0xdc4  ssl_srv.o [1]
+  .text              ro code  0x0800c3e4    0xc02  x509_crt.o [1]
+  .text              ro code  0x0800cfe8     0x7c  ssl_ciphersuites.o [1]
+  .text              ro code  0x0800d064    0x6a0  ccm.o [1]
+  .text              ro code  0x0800d704      0x4  time_trampoline.o [3]
+  .text              ro code  0x0800d708     0x68  memcmp.o [5]
+  .text              ro code  0x0800d770     0xbc  pk.o [1]
+  .text              ro code  0x0800d82c    0x40c  asn1parse.o [1]
+  .text              ro code  0x0800dc38    0x5e0  x509.o [1]
+  .text              ro code  0x0800e218    0x1c8  oid.o [1]
+  .text              ro code  0x0800e3e0    0x6a0  pkparse.o [1]
+  .text              ro code  0x0800ea80     0x30  strstr.o [3]
+  .text              ro code  0x0800eab0    0x66c  pem.o [1]
+  .text              ro code  0x0800f11c     0x12  time.o [6]
+  .text              ro code  0x0800f130   0x1a6a  rsa.o [1]
+  .text              ro code  0x08010b9c     0x16  strchr.o [5]
+  .text              ro code  0x08010bb4    0xaf4  md5.o [1]
+  .text              ro code  0x080116a8    0xddc  des.o [1]
+  .text              ro code  0x08012484   0x1090  aes.o [1]
+  .text              ro code  0x08013514    0x180  base64.o [1]
+  .text              ro code  0x08013694    0x68a  rsa_internal.o [1]
+  .text              ro code  0x08013d20   0x1928  sha1.o [1]
+  .text              ro code  0x08015648   0x159e  main.o [1]
+  .text              ro code  0x08016be8     0x28  printf.o [3]
+  .text              ro code  0x08016c10     0x40  stm32f4xx_hal.o [1]
+  .text              ro code  0x08016c50    0x45e  stm32f4xx_hal_tim.o [1]
+  .text              ro code  0x080170b0    0x82c  stm32f4xx_hal_uart.o [1]
+  .text              ro code  0x080178dc    0x69c  stm32f4xx_hal_rtc.o [1]
+  .text              ro code  0x08017f78    0x118  mbedtls.o [1]
+  .text              ro code  0x08018090     0x88  entropy.o [1]
+  .text              ro code  0x08018118     0x44  snprintf.o [3]
+  .text              ro code  0x0801815c     0xd8  net_sockets.o [1]
+  .text              ro code  0x08018234    0x268  stm32f4xx_hal_gpio.o [1]
+  .text              ro code  0x0801849c     0x28  stm32f4xx_hal.o [1]
+  .text              ro code  0x080184c4      0x6  ABImemclr4.o [5]
+  .text              ro code  0x080184cc    0x40c  stm32f4xx_hal_rcc.o [1]
+  .text              ro code  0x080188d8    0x230  stm32f4xx_hal_rcc.o [1]
+  .text              ro code  0x08018b08    0x190  stm32f4xx_hal_rcc_ex.o [1]
+  .text              ro code  0x08018c98    0x53c  stm32f4xx_hal_adc.o [1]
+  .text              ro code  0x080191d4    0x1f4  stm32f4xx_hal_i2c.o [1]
+  .text              ro code  0x080193c8     0x8e  stm32f4xx_hal_spi.o [1]
+  .text              ro code  0x08019458     0xac  stm32f4xx_hal_tim_ex.o [1]
+  .text              ro code  0x08019504    0xf72  xprintffull.o [3]
+  .text              ro code  0x0801a478    0x154  stm32f4xx_hal_cortex.o [1]
+  .text              ro code  0x0801a5cc     0x4c  stm32f4xx_hal.o [1]
+  .text              ro code  0x0801a618    0x848  stm32f4xx_hal_msp.o [1]
+  .text              ro code  0x0801ae60      0x2  stm32f4xx_hal_tim.o [1]
+  .text              ro code  0x0801ae62      0x2  stm32f4xx_hal_tim.o [1]
+  .text              ro code  0x0801ae64      0x2  stm32f4xx_hal_tim.o [1]
+  .text              ro code  0x0801ae66      0x2  stm32f4xx_hal_tim_ex.o [1]
+  .text              ro code  0x0801ae68      0x2  stm32f4xx_hal_tim.o [1]
+  .text              ro code  0x0801ae6a      0x2  stm32f4xx_hal_tim_ex.o [1]
+  .text              ro code  0x0801ae6c      0xc  stm32f4xx_hal.o [1]
+  .text              ro code  0x0801ae78     0x28  stm32f4xx_hal_dma.o [1]
+  .text              ro code  0x0801aea0      0x2  stm32f4xx_hal_uart.o [1]
+  .text              ro code  0x0801aea2      0x2  stm32f4xx_hal_uart.o [1]
+  .text              ro code  0x0801aea4      0x2  stm32f4xx_hal_rtc_ex.o [1]
+  .text              ro code  0x0801aea6    0x484  ctr_drbg.o [1]
+  .text              ro code  0x0801b32c     0xb0  rand.o [3]
+  .text              ro code  0x0801b3dc     0x40  sprintf.o [3]
+  .text              ro code  0x0801b41c     0x32  ABImemset48.o [5]
+  .text              ro code  0x0801b44e      0x2  stm32f4xx_hal_adc.o [1]
+  .text              ro code  0x0801b450      0x2  stm32f4xx_hal_adc_ex.o [1]
+  .text              ro code  0x0801b452      0x2  stm32f4xx_hal_adc.o [1]
+  .text              ro code  0x0801b454      0x2  stm32f4xx_hal_adc.o [1]
+  .text              ro code  0x0801b458     0x74  xlocale_c.o [3]
+  .text              ro code  0x0801b4cc     0x44  xfail_s.o [3]
+  .text              ro code  0x0801b510     0x58  memchr.o [5]
+  .text              ro code  0x0801b568      0xa  xmbcurmax.o [3]
+  .text              ro code  0x0801b574    0x1a2  DblMul.o [4]
+  .text              ro code  0x0801b718     0x70  frexp.o [4]
+  .text              ro code  0x0801b788     0x2e  DblCmpLe.o [4]
+  .text              ro code  0x0801b7b8     0x2e  DblCmpGe.o [4]
+  .text              ro code  0x0801b7e8    0x13a  ldexp.o [4]
+  .text              ro code  0x0801b924     0x3a  DblToS32.o [4]
+  .text              ro code  0x0801b960     0x22  S32ToDbl.o [4]
+  .text              ro code  0x0801b984     0xe2  DblSub.o [4]
+  .text              ro code  0x0801ba68    0x246  DblDiv.o [4]
+  .text              ro code  0x0801bcb0     0x28  DblToU32.o [4]
+  .text              ro code  0x0801bcd8     0x1a  U32ToDbl.o [4]
+  .text              ro code  0x0801bcf4    0x168  DblAdd.o [4]
+  .text              ro code  0x0801be5c    0x5be  ecdsa.o [1]
+  .text              ro code  0x0801c41a    0x1ec  asn1write.o [1]
+  .rodata            const    0x0801c608    0x400  aes.o [1]
+  .rodata            const    0x0801ca08    0x400  aes.o [1]
+  .rodata            const    0x0801ce08    0x400  aes.o [1]
+  .rodata            const    0x0801d208    0x400  aes.o [1]
+  .rodata            const    0x0801d608    0x400  aes.o [1]
+  .rodata            const    0x0801da08    0x400  aes.o [1]
+  .rodata            const    0x0801de08    0x400  aes.o [1]
+  .rodata            const    0x0801e208    0x400  aes.o [1]
+  .text              ro code  0x0801e608    0x3be  pk_wrap.o [1]
+  .rodata            const    0x0801e9c8    0x2a0  bignum.o [1]
+  .text              ro code  0x0801ec68    0x240  cipher_wrap.o [1]
+  .text              ro code  0x0801eea8    0x1b0  md_wrap.o [1]
+  .text              ro code  0x0801f058    0x138  stm32f4xx_it.o [1]
+  .text              ro code  0x0801f190     0x18  stm32f4xx_hal.o [1]
+  .rodata            const    0x0801f1a8    0x120  ssl_ciphersuites.o [1]
+  .rodata            const    0x0801f2c8    0x100  aes.o [1]
+  .rodata            const    0x0801f3c8    0x100  aes.o [1]
+  .rodata            const    0x0801f4c8    0x100  des.o [1]
+  .rodata            const    0x0801f5c8    0x100  des.o [1]
+  .rodata            const    0x0801f6c8    0x100  des.o [1]
+  .rodata            const    0x0801f7c8    0x100  des.o [1]
+  .rodata            const    0x0801f8c8    0x100  des.o [1]
+  .rodata            const    0x0801f9c8    0x100  des.o [1]
+  .rodata            const    0x0801fac8    0x100  des.o [1]
+  .rodata            const    0x0801fbc8    0x100  des.o [1]
+  .rodata            const    0x0801fcc8    0x100  sha256.o [1]
+  .rodata            const    0x0801fdc8     0xf0  main.o [1]
+  .rodata            const    0x0801feb8     0xf0  oid.o [1]
+  .rodata            const    0x0801ffa8     0xc8  oid.o [1]
+  .rodata            const    0x08020070     0x90  ecp.o [1]
+  .rodata            const    0x08020100     0x80  base64.o [1]
+  .rodata            const    0x08020180     0x80  cipher_wrap.o [1]
+  .rodata            const    0x08020200     0x78  oid.o [1]
+  .rodata            const    0x08020278     0x64  oid.o [1]
+  .rodata            const    0x080202dc     0x50  oid.o [1]
+  .rodata            const    0x0802032c     0x48  main.o [1]
+  .rodata            const    0x08020374     0x44  ecp_curves.o [1]
+  .rodata            const    0x080203b8     0x44  ecp_curves.o [1]
+  .rodata            const    0x080203fc     0x44  ecp_curves.o [1]
+  .rodata            const    0x08020440     0x44  ecp_curves.o [1]
+  .rodata            const    0x08020484     0x44  ecp_curves.o [1]
+  .rodata            const    0x080204c8     0x40  des.o [1]
+  .rodata            const    0x08020508     0x40  des.o [1]
+  .rodata            const    0x08020548     0x40  ecp_curves.o [1]
+  .rodata            const    0x08020588     0x40  ecp_curves.o [1]
+  .rodata            const    0x080205c8     0x40  ecp_curves.o [1]
+  .rodata            const    0x08020608     0x40  ecp_curves.o [1]
+  .rodata            const    0x08020648     0x40  ecp_curves.o [1]
+  .rodata            const    0x08020688     0x40  ecp_curves.o [1]
+  .rodata            const    0x080206c8     0x40  md5.o [1]
+  .rodata            const    0x08020708     0x40  sha1.o [1]
+  .rodata            const    0x08020748     0x40  sha256.o [1]
+  .text              ro code  0x08020788     0x40  zero_init3.o [5]
+  .rodata            const    0x080207c8     0x3c  ecp_curves.o [1]
+  .rodata            const    0x08020804     0x38  main.o [1]
+  .rodata            const    0x0802083c     0x38  rsa_internal.o [1]
+  .rodata            const    0x08020874     0x34  main.o [1]
+  .rodata            const    0x080208a8     0x34  main.o [1]
+  .rodata            const    0x080208dc     0x34  main.o [1]
+  .rodata            const    0x08020910     0x34  main.o [1]
+  .rodata            const    0x08020944     0x34  main.o [1]
+  .rodata            const    0x08020978     0x30  ecp_curves.o [1]
+  .rodata            const    0x080209a8     0x30  ecp_curves.o [1]
+  .rodata            const    0x080209d8     0x30  ecp_curves.o [1]
+  .rodata            const    0x08020a08     0x30  ecp_curves.o [1]
+  .rodata            const    0x08020a38     0x30  ecp_curves.o [1]
+  .rodata            const    0x08020a68     0x30  ecp_curves.o [1]
+  .rodata            const    0x08020a98     0x30  ecp_curves.o [1]
+  .rodata            const    0x08020ac8     0x30  ecp_curves.o [1]
+  .rodata            const    0x08020af8     0x30  ecp_curves.o [1]
+  .rodata            const    0x08020b28     0x30  ecp_curves.o [1]
+  .rodata            const    0x08020b58     0x30  ecp_curves.o [1]
+  .rodata            const    0x08020b88     0x30  main.o [1]
+  .rodata            const    0x08020bb8     0x30  main.o [1]
+  .rodata            const    0x08020be8     0x30  md_wrap.o [1]
+  .rodata            const    0x08020c18     0x30  md_wrap.o [1]
+  .rodata            const    0x08020c48     0x30  md_wrap.o [1]
+  .rodata            const    0x08020c78     0x30  md_wrap.o [1]
+  .rodata            const    0x08020ca8     0x30  pk_wrap.o [1]
+  .rodata            const    0x08020cd8     0x30  pk_wrap.o [1]
+  .rodata            const    0x08020d08     0x30  pk_wrap.o [1]
+  .rodata            const    0x08020d38     0x30  pk_wrap.o [1]
+  .rodata            const    0x08020d68     0x2c  main.o [1]
+  .rodata            const    0x08020d94     0x2c  main.o [1]
+  .rodata            const    0x08020dc0     0x2c  main.o [1]
+  .rodata            const    0x08020dec     0x28  aes.o [1]
+  .rodata            const    0x08020e14     0x28  main.o [1]
+  .rodata            const    0x08020e3c     0x28  main.o [1]
+  .rodata            const    0x08020e64     0x28  main.o [1]
+  .text              ro code  0x08020e8c     0x28  data_init.o [5]
+  .rodata            const    0x08020eb4     0x24  ecp_curves.o [1]
+  .rodata            const    0x08020ed8     0x24  main.o [1]
+  .text              ro code  0x08020efc     0x22  fpinit_M.o [4]
+  .iar.init_table    const    0x08020f20     0x20  - Linker created -
+  .rodata            const    0x08020f40     0x20  ecp_curves.o [1]
+  .rodata            const    0x08020f60     0x20  ecp_curves.o [1]
+  .rodata            const    0x08020f80     0x20  ecp_curves.o [1]
+  .rodata            const    0x08020fa0     0x20  ecp_curves.o [1]
+  .rodata            const    0x08020fc0     0x20  ecp_curves.o [1]
+  .rodata            const    0x08020fe0     0x20  ecp_curves.o [1]
+  .rodata            const    0x08021000     0x20  ecp_curves.o [1]
+  .rodata            const    0x08021020     0x20  ecp_curves.o [1]
+  .rodata            const    0x08021040     0x20  ecp_curves.o [1]
+  .rodata            const    0x08021060     0x20  ecp_curves.o [1]
+  .rodata            const    0x08021080     0x20  ecp_curves.o [1]
+  .rodata            const    0x080210a0     0x20  ecp_curves.o [1]
+  .rodata            const    0x080210c0     0x20  ecp_curves.o [1]
+  .rodata            const    0x080210e0     0x20  ecp_curves.o [1]
+  .rodata            const    0x08021100     0x20  ecp_curves.o [1]
+  .rodata            const    0x08021120     0x20  ecp_curves.o [1]
+  .rodata            const    0x08021140     0x20  ecp_curves.o [1]
+  .rodata            const    0x08021160     0x20  main.o [1]
+  .rodata            const    0x08021180     0x20  main.o [1]
+  .rodata            const    0x080211a0     0x20  ssl_ciphersuites.o [1]
+  .rodata            const    0x080211c0     0x20  ssl_ciphersuites.o [1]
+  .rodata            const    0x080211e0     0x20  ssl_ciphersuites.o [1]
+  .rodata            const    0x08021200     0x20  ssl_ciphersuites.o [1]
+  .text              ro code  0x08021220     0x20  system_stm32f4xx.o [1]
+  .rodata            const    0x08021240     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x0802125c     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x08021278     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x08021294     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x080212b0     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x080212cc     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x080212e8     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x08021304     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x08021320     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x0802133c     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x08021358     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x08021374     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x08021390     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x080213ac     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x080213c8     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x080213e4     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x08021400     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x0802141c     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x08021438     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x08021454     0x1c  cipher_wrap.o [1]
+  .rodata            const    0x08021470     0x1c  ecp_curves.o [1]
+  .rodata            const    0x0802148c     0x1c  ecp_curves.o [1]
+  .rodata            const    0x080214a8     0x1c  ecp_curves.o [1]
+  .rodata            const    0x080214c4     0x1c  ecp_curves.o [1]
+  .rodata            const    0x080214e0     0x1c  ecp_curves.o [1]
+  .rodata            const    0x080214fc     0x1c  ecp_curves.o [1]
+  .rodata            const    0x08021518     0x1c  ecp_curves.o [1]
+  .rodata            const    0x08021534     0x1c  main.o [1]
+  .rodata            const    0x08021550     0x1c  oid.o [1]
+  .rodata            const    0x0802156c     0x1c  ssl_ciphersuites.o [1]
+  .rodata            const    0x08021588     0x1c  ssl_ciphersuites.o [1]
+  .rodata            const    0x080215a4     0x1c  ssl_ciphersuites.o [1]
+  .rodata            const    0x080215c0     0x1c  ssl_ciphersuites.o [1]
+  .rodata            const    0x080215dc     0x1c  x509_crt.o [1]
+  .rodata            const    0x080215f8     0x1c  x509_crt.o [1]
+  .text              ro code  0x08021614     0x1a  cmain.o [5]
+  .text              ro code  0x0802162e      0x4  low_level_init.o [3]
+  .text              ro code  0x08021632      0x4  exit.o [3]
+  .text              ro code  0x08021638      0xa  cexit.o [5]
+  .rodata            const    0x08021644     0x18  ecp_curves.o [1]
+  .rodata            const    0x0802165c     0x18  ecp_curves.o [1]
+  .rodata            const    0x08021674     0x18  ecp_curves.o [1]
+  .rodata            const    0x0802168c     0x18  ecp_curves.o [1]
+  .rodata            const    0x080216a4     0x18  ecp_curves.o [1]
+  .rodata            const    0x080216bc     0x18  ecp_curves.o [1]
+  .rodata            const    0x080216d4     0x18  ecp_curves.o [1]
+  .rodata            const    0x080216ec     0x18  ecp_curves.o [1]
+  .rodata            const    0x08021704     0x18  ecp_curves.o [1]
+  .rodata            const    0x0802171c     0x18  main.o [1]
+  .rodata            const    0x08021734     0x18  oid.o [1]
+  .rodata            const    0x0802174c     0x18  oid.o [1]
+  .rodata            const    0x08021764     0x18  oid.o [1]
+  .rodata            const    0x0802177c     0x18  oid.o [1]
+  .rodata            const    0x08021794     0x18  oid.o [1]
+  .rodata            const    0x080217ac     0x18  oid.o [1]
+  .rodata            const    0x080217c4     0x18  oid.o [1]
+  .rodata            const    0x080217dc     0x18  pem.o [1]
+  .rodata            const    0x080217f4     0x18  pem.o [1]
+  .rodata            const    0x0802180c     0x18  pem.o [1]
+  .rodata            const    0x08021824     0x18  pem.o [1]
+  .rodata            const    0x0802183c     0x18  pem.o [1]
+  .rodata            const    0x08021854     0x18  stm32f4xx_it.o [1]
+  .text              ro code  0x0802186c     0x18  entropy_poll.o [1]
+  .text              ro code  0x08021884     0x16  xprout.o [3]
+  .text              ro code  0x0802189c      0xc  putchar.o [3]
+  .rodata            const    0x080218a8     0x14  main.o [1]
+  .rodata            const    0x080218bc     0x14  main.o [1]
+  .rodata            const    0x080218d0     0x14  main.o [1]
+  .rodata            const    0x080218e4     0x14  mbedtls.o [1]
+  .rodata            const    0x080218f8     0x14  oid.o [1]
+  .rodata            const    0x0802190c     0x14  oid.o [1]
+  .rodata            const    0x08021920     0x14  oid.o [1]
+  .rodata            const    0x08021934     0x14  oid.o [1]
+  .rodata            const    0x08021948     0x14  oid.o [1]
+  .rodata            const    0x0802195c     0x14  oid.o [1]
+  .rodata            const    0x08021970     0x14  oid.o [1]
+  .rodata            const    0x08021984     0x14  oid.o [1]
+  .rodata            const    0x08021998     0x14  oid.o [1]
+  .rodata            const    0x080219ac     0x14  oid.o [1]
+  .rodata            const    0x080219c0     0x14  pem.o [1]
+  .rodata            const    0x080219d4     0x14  stm32f4xx_it.o [1]
+  .rodata            const    0x080219e8     0x14  stm32f4xx_it.o [1]
+  .rodata            const    0x080219fc     0x14  stm32f4xx_it.o [1]
+  .text              ro code  0x08021a10     0x14  memset.o [5]
+  .rodata            const    0x08021a24     0x10  cipher_wrap.o [1]
+  .rodata            const    0x08021a34     0x10  cipher_wrap.o [1]
+  .rodata            const    0x08021a44     0x10  ecp.o [1]
+  .rodata            const    0x08021a54     0x10  ecp.o [1]
+  .rodata            const    0x08021a64     0x10  ecp.o [1]
+  .rodata            const    0x08021a74     0x10  main.o [1]
+  .rodata            const    0x08021a84     0x10  main.o [1]
+  .rodata            const    0x08021a94     0x10  main.o [1]
+  .rodata            const    0x08021aa4     0x10  net_sockets.o [1]
+  .rodata            const    0x08021ab4     0x10  net_sockets.o [1]
+  .rodata            const    0x08021ac4     0x10  net_sockets.o [1]
+  .rodata            const    0x08021ad4     0x10  net_sockets.o [1]
+  .rodata            const    0x08021ae4     0x10  net_sockets.o [1]
+  .rodata            const    0x08021af4     0x10  oid.o [1]
+  .rodata            const    0x08021b04     0x10  oid.o [1]
+  .rodata            const    0x08021b14     0x10  oid.o [1]
+  .rodata            const    0x08021b24     0x10  oid.o [1]
+  .rodata            const    0x08021b34     0x10  oid.o [1]
+  .rodata            const    0x08021b44     0x10  oid.o [1]
+  .rodata            const    0x08021b54     0x10  oid.o [1]
+  .rodata            const    0x08021b64     0x10  oid.o [1]
+  .rodata            const    0x08021b74     0x10  oid.o [1]
+  .rodata            const    0x08021b84     0x10  oid.o [1]
+  .rodata            const    0x08021b94     0x10  oid.o [1]
+  .rodata            const    0x08021ba4     0x10  oid.o [1]
+  .rodata            const    0x08021bb4     0x10  oid.o [1]
+  .rodata            const    0x08021bc4     0x10  oid.o [1]
+  .rodata            const    0x08021bd4     0x10  oid.o [1]
+  .rodata            const    0x08021be4     0x10  pem.o [1]
+  .rodata            const    0x08021bf4     0x10  ssl_tls.o [1]
+  .rodata            const    0x08021c04     0x10  ssl_tls.o [1]
+  .rodata            const    0x08021c14     0x10  ssl_tls.o [1]
+  .rodata            const    0x08021c24     0x10  ssl_tls.o [1]
+  .rodata            const    0x08021c34     0x10  system_stm32f4xx.o [1]
+  .rodata            const    0x08021c44     0x10  x509_crt.o [1]
+  .rodata            const    0x08021c54     0x10  x509_crt.o [1]
+  .text              ro code  0x08021c64     0x10  startup_stm32f407xx.o [1]
+  .rodata            const    0x08021c74      0xc  cipher_wrap.o [1]
+  .rodata            const    0x08021c80      0xc  cipher_wrap.o [1]
+  .rodata            const    0x08021c8c      0xc  cipher_wrap.o [1]
+  .rodata            const    0x08021c98      0xc  cipher_wrap.o [1]
+  .rodata            const    0x08021ca4      0xc  cipher_wrap.o [1]
+  .rodata            const    0x08021cb0      0xc  cipher_wrap.o [1]
+  .rodata            const    0x08021cbc      0xc  cipher_wrap.o [1]
+  .rodata            const    0x08021cc8      0xc  cipher_wrap.o [1]
+  .rodata            const    0x08021cd4      0xc  cipher_wrap.o [1]
+  .rodata            const    0x08021ce0      0xc  cipher_wrap.o [1]
+  .rodata            const    0x08021cec      0xc  cipher_wrap.o [1]
+  .rodata            const    0x08021cf8      0xc  ecp.o [1]
+  .rodata            const    0x08021d04      0xc  ecp.o [1]
+  .rodata            const    0x08021d10      0xc  ecp.o [1]
+  .rodata            const    0x08021d1c      0xc  ecp.o [1]
+  .rodata            const    0x08021d28      0xc  ecp.o [1]
+  .rodata            const    0x08021d34      0xc  ecp.o [1]
+  .rodata            const    0x08021d40      0xc  ecp.o [1]
+  .rodata            const    0x08021d4c      0xc  ecp.o [1]
+  .rodata            const    0x08021d58      0xc  main.o [1]
+  .rodata            const    0x08021d64      0xc  main.o [1]
+  .rodata            const    0x08021d70      0xc  net_sockets.o [1]
+  .rodata            const    0x08021d7c      0xc  net_sockets.o [1]
+  .rodata            const    0x08021d88      0xc  oid.o [1]
+  .rodata            const    0x08021d94      0xc  oid.o [1]
+  .rodata            const    0x08021da0      0xc  oid.o [1]
+  .rodata            const    0x08021dac      0xc  oid.o [1]
+  .rodata            const    0x08021db8      0xc  oid.o [1]
+  .rodata            const    0x08021dc4      0xc  oid.o [1]
+  .rodata            const    0x08021dd0      0xc  oid.o [1]
+  .rodata            const    0x08021ddc      0xc  oid.o [1]
+  .rodata            const    0x08021de8      0xc  oid.o [1]
+  .rodata            const    0x08021df4      0xc  oid.o [1]
+  .rodata            const    0x08021e00      0xc  oid.o [1]
+  .rodata            const    0x08021e0c      0xc  oid.o [1]
+  .rodata            const    0x08021e18      0xc  oid.o [1]
+  .rodata            const    0x08021e24      0xc  oid.o [1]
+  .rodata            const    0x08021e30      0xc  oid.o [1]
+  .rodata            const    0x08021e3c      0xc  oid.o [1]
+  .rodata            const    0x08021e48      0xc  oid.o [1]
+  .rodata            const    0x08021e54      0xc  oid.o [1]
+  .rodata            const    0x08021e60      0xc  oid.o [1]
+  .rodata            const    0x08021e6c      0xc  oid.o [1]
+  .rodata            const    0x08021e78      0xc  oid.o [1]
+  .rodata            const    0x08021e84      0xc  oid.o [1]
+  .rodata            const    0x08021e90      0xc  oid.o [1]
+  .rodata            const    0x08021e9c      0xc  oid.o [1]
+  .rodata            const    0x08021ea8      0xc  oid.o [1]
+  .rodata            const    0x08021eb4      0xc  oid.o [1]
+  .rodata            const    0x08021ec0      0xc  oid.o [1]
+  .rodata            const    0x08021ecc      0xc  oid.o [1]
+  .rodata            const    0x08021ed8      0xc  oid.o [1]
+  .rodata            const    0x08021ee4      0xc  ssl_ciphersuites.o [1]
+  .text              ro code  0x08021ef0      0xc  cstartup_M.o [5]
+  .rodata            const    0x08021efc      0x8  cipher_wrap.o [1]
+  .rodata            const    0x08021f04      0x8  cipher_wrap.o [1]
+  .rodata            const    0x08021f0c      0x8  ecp_curves.o [1]
+  .rodata            const    0x08021f14      0x8  ecp_curves.o [1]
+  .rodata            const    0x08021f1c      0x8  main.o [1]
+  .rodata            const    0x08021f24      0x8  main.o [1]
+  .rodata            const    0x08021f2c      0x8  main.o [1]
+  .rodata            const    0x08021f34      0x8  main.o [1]
+  .rodata            const    0x08021f3c      0x8  main.o [1]
+  .rodata            const    0x08021f44      0x8  main.o [1]
+  .rodata            const    0x08021f4c      0x8  main.o [1]
+  .rodata            const    0x08021f54      0x8  main.o [1]
+  .rodata            const    0x08021f5c      0x8  main.o [1]
+  .rodata            const    0x08021f64      0x8  mbedtls.o [1]
+  .rodata            const    0x08021f6c      0x8  mbedtls.o [1]
+  .rodata            const    0x08021f74      0x8  md_wrap.o [1]
+  .rodata            const    0x08021f7c      0x8  md_wrap.o [1]
+  .rodata            const    0x08021f84      0x8  md_wrap.o [1]
+  .rodata            const    0x08021f8c      0x8  net_sockets.o [1]
+  .rodata            const    0x08021f94      0x8  oid.o [1]
+  .rodata            const    0x08021f9c      0x8  oid.o [1]
+  .rodata            const    0x08021fa4      0x8  oid.o [1]
+  .rodata            const    0x08021fac      0x8  oid.o [1]
+  .rodata            const    0x08021fb4      0x8  oid.o [1]
+  .rodata            const    0x08021fbc      0x8  oid.o [1]
+  .rodata            const    0x08021fc4      0x8  oid.o [1]
+  .rodata            const    0x08021fcc      0x8  oid.o [1]
+  .rodata            const    0x08021fd4      0x8  oid.o [1]
+  .rodata            const    0x08021fdc      0x8  oid.o [1]
+  .rodata            const    0x08021fe4      0x8  oid.o [1]
+  .rodata            const    0x08021fec      0x8  oid.o [1]
+  .rodata            const    0x08021ff4      0x8  oid.o [1]
+  .rodata            const    0x08021ffc      0x8  oid.o [1]
+  .rodata            const    0x08022004      0x8  oid.o [1]
+  .rodata            const    0x0802200c      0x8  oid.o [1]
+  .rodata            const    0x08022014      0x8  oid.o [1]
+  .rodata            const    0x0802201c      0x8  pk_wrap.o [1]
+  .rodata            const    0x08022024      0x8  pk_wrap.o [1]
+  .rodata            const    0x0802202c      0x8  pk_wrap.o [1]
+  .rodata            const    0x08022034      0x8  pk_wrap.o [1]
+  .rodata            const    0x0802203c      0x8  pk_wrap.o [1]
+  .rodata            const    0x08022044      0x8  pkparse.o [1]
+  .rodata            const    0x0802204c      0x8  system_stm32f4xx.o [1]
+  .rodata            const    0x08022054      0x6  xlocale_c.o [3]
+  .rodata            const    0x0802205c      0x4  ecp_curves.o [1]
+  .rodata            const    0x08022060      0x4  ecp_curves.o [1]
+  .rodata            const    0x08022064      0x4  ecp_curves.o [1]
+  .rodata            const    0x08022068      0x4  ecp_curves.o [1]
+  .rodata            const    0x0802206c      0x4  ecp_curves.o [1]
+  .rodata            const    0x08022070      0x4  ecp_curves.o [1]
+  .rodata            const    0x08022074      0x4  main.o [1]
+  .rodata            const    0x08022078      0x4  md_wrap.o [1]
+  .rodata            const    0x0802207c      0x4  oid.o [1]
+  .rodata            const    0x08022080      0x4  oid.o [1]
+  .rodata            const    0x08022084      0x4  oid.o [1]
+  .rodata            const    0x08022088      0x4  oid.o [1]
+  .rodata            const    0x0802208c      0x4  oid.o [1]
+  .rodata            const    0x08022090      0x4  oid.o [1]
+  .rodata            const    0x08022094      0x4  pk_wrap.o [1]
+  .rodata            const    0x08022098      0x4  pk_wrap.o [1]
+  .text              ro code  0x0802209c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220a0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220a4      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220a8      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220ac      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220b0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220b4      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220b8      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220bc      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220c0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220c4      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220c8      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220cc      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220d0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220d4      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220d8      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220dc      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220e0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220e4      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220e8      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220ec      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220f0      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220f4      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220f8      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080220fc      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022100      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022104      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022108      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0802210c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022110      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022114      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022118      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0802211c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022120      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022124      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022128      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0802212c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022130      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022134      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022138      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0802213c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022140      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022144      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022148      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0802214c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022150      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022154      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022158      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0802215c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022160      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022164      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022168      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0802216c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022170      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022174      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022178      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0802217c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022180      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022184      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022188      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0802218c      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022190      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022194      0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08022198      0x4  startup_stm32f407xx.o [1]
+  .rodata            const    0x0802219c      0x0  zero_init3.o [5]
+  .rodata            const    0x0802219c      0x0  lz77_init_single.o [5]
+  Initializer bytes  const    0x0802219c    0x539  <for P2-1>
+                            - 0x080226d5  0x2254d
+
+"P2", part 1 of 3:                          0x60e
+  P2-1                        0x20000000    0x60e  <Init block>
+    .data            inited   0x20000000      0x4  ecp_curves.o [1]
+    .data            inited   0x20000004      0x8  ecp_curves.o [1]
+    .data            inited   0x2000000c      0x8  ecp_curves.o [1]
+    .data            inited   0x20000014      0x8  ecp_curves.o [1]
+    .data            inited   0x2000001c    0x504  main.o [1]
+    .data            inited   0x20000520      0x4  platform_util.o [1]
+    .data            inited   0x20000524      0xc  ssl_tls.o [1]
+    .data            inited   0x20000530      0x4  ssl_tls.o [1]
+    .data            inited   0x20000534      0x4  stm32f4xx_hal.o [1]
+    .data            inited   0x20000538      0x4  system_stm32f4xx.o [1]
+    .data            inited   0x2000053c      0x8  rand.o [3]
+    .data            inited   0x20000544     0x38  xlocale_c.o [3]
+    .data            inited   0x2000057c     0x48  xlocale_c.o [3]
+    .data            inited   0x200005c4     0x48  xfiles.o [3]
+    .data            inited   0x2000060c      0x1  main.o [1]
+    .data            inited   0x2000060d      0x1  stm32f4xx_hal.o [1]
+                            - 0x2000060e    0x60e
+
+"P2", part 2 of 3:                         0x1198
+  .bss               zero     0x20000610    0x400  main.o [1]
+  .bss               zero     0x20000a10    0x1d8  dlmalloc.o [3]
+  .bss               zero     0x20000be8    0x140  mbedtls.o [1]
+  .bss               zero     0x20000d28    0x134  mbedtls.o [1]
+  .bss               zero     0x20000e5c     0xb4  mbedtls.o [1]
+  .bss               zero     0x20000f10     0x9c  mbedtls.o [1]
+  .bss               zero     0x20000fac     0x84  rand.o [3]
+  .bss               zero     0x20001030     0x6c  mbedtls.o [1]
+  .bss               zero     0x2000109c     0x68  mbedtls.o [1]
+  .bss               zero     0x20001104     0x58  main.o [1]
+  .bss               zero     0x2000115c     0x58  mbedtls.o [1]
+  .bss               zero     0x200011b4     0x54  main.o [1]
+  .bss               zero     0x20001208     0x50  xfiles.o [3]
+  .bss               zero     0x20001258     0x48  main.o [1]
+  .bss               zero     0x200012a0     0x40  main.o [1]
+  .bss               zero     0x200012e0     0x40  main.o [1]
+  .bss               zero     0x20001320     0x40  main.o [1]
+  .bss               zero     0x20001360     0x40  main.o [1]
+  .bss               zero     0x200013a0     0x40  main.o [1]
+  .bss               zero     0x200013e0     0x40  main.o [1]
+  .bss               zero     0x20001420     0x40  main.o [1]
+  .bss               zero     0x20001460     0x40  main.o [1]
+  .bss               zero     0x200014a0     0x40  main.o [1]
+  .bss               zero     0x200014e0     0x40  main.o [1]
+  .bss               zero     0x20001520     0x40  main.o [1]
+  .bss               zero     0x20001560     0x40  main.o [1]
+  .bss               zero     0x200015a0     0x40  main.o [1]
+  .bss               zero     0x200015e0     0x40  main.o [1]
+  .bss               zero     0x20001620     0x40  main.o [1]
+  .bss               zero     0x20001660     0x40  main.o [1]
+  .bss               zero     0x200016a0     0x40  main.o [1]
+  .bss               zero     0x200016e0     0x40  main.o [1]
+  .bss               zero     0x20001720     0x20  main.o [1]
+  .bss               zero     0x20001740     0x18  dlmalloc.o [3]
+  .bss               zero     0x20001758     0x14  main.o [1]
+  .bss               zero     0x2000176c      0xc  ecp.o [1]
+  .bss               zero     0x20001778      0x4  ecp.o [1]
+  .bss               zero     0x2000177c      0x4  main.o [1]
+  .bss               zero     0x20001780      0x4  main.o [1]
+  .bss               zero     0x20001784      0x4  main.o [1]
+  .bss               zero     0x20001788      0x4  main.o [1]
+  .bss               zero     0x2000178c      0x4  mbedtls.o [1]
+  .bss               zero     0x20001790      0x4  stm32f4xx_hal.o [1]
+  .bss               zero     0x20001794      0x4  xgetmemchunk.o [3]
+  .bss               zero     0x20001798      0x4  xfail_s.o [3]
+  .bss               zero     0x2000179c      0x1  main.o [1]
+  .bss               zero     0x2000179d      0x1  main.o [1]
+  .bss               zero     0x2000179e      0x1  main.o [1]
+  .bss               zero     0x2000179f      0x1  main.o [1]
+  .bss               zero     0x200017a0      0x1  main.o [1]
+  .bss               zero     0x200017a1      0x1  main.o [1]
+  .bss               zero     0x200017a2      0x1  main.o [1]
+  .bss               zero     0x200017a3      0x1  main.o [1]
+  .bss               zero     0x200017a4      0x1  main.o [1]
+  .bss               zero     0x200017a5      0x1  main.o [1]
+  .bss               zero     0x200017a6      0x1  main.o [1]
+                            - 0x200017a7   0x1197
+
+"P2", part 3 of 3:                        0x17000
+  CSTACK                      0x200017a8  0x12000  <Block>
+    CSTACK           uninit   0x200017a8  0x12000  <Block tail>
+  HEAP                        0x200137a8   0x5000  <Block>
+    HEAP             uninit   0x200137a8   0x5000  <Block tail>
+                            - 0x200187a8  0x17000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1197:
+          0x20000610  0x1197
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x539 (86% of destination):
+          0x0802219c   0x539
+    1 destination range, total size 0x60e:
+          0x20000000   0x60e
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj: [1]
+    aes.o                     4 240    8 744
+    asn1parse.o               1 036
+    asn1write.o                 492
+    base64.o                    384      128
+    bignum.o                  9 920      672
+    ccm.o                     1 696
+    cipher.o                  1 684
+    cipher_wrap.o               576      868
+    ctr_drbg.o                1 156
+    des.o                     3 548    2 176
+    ecdh.o                       94
+    ecdsa.o                   1 470
+    ecp.o                     8 760      288       16
+    ecp_curves.o              2 652    2 368       28
+    entropy.o                   136
+    entropy_poll.o               24
+    main.o                    5 534    2 444    3 784
+    mbedtls.o                   280       36    1 268
+    md.o                        904
+    md5.o                     2 804       64
+    md_wrap.o                   432      220
+    net_sockets.o               216      112
+    oid.o                       456    1 884
+    pem.o                     1 644      156
+    pk.o                        188
+    pk_wrap.o                   958      240
+    pkparse.o                 1 696        8
+    platform_util.o              24        4        4
+    rsa.o                     6 762
+    rsa_internal.o            1 674       56
+    sha1.o                    6 440       64
+    sha256.o                  5 376      320
+    ssl_ciphersuites.o          124      541
+    ssl_cli.o                 2 932
+    ssl_srv.o                 3 524
+    ssl_tls.o                 7 488       77       16
+    startup_stm32f407xx.o       664
+    stm32f4xx_hal.o             216        5        9
+    stm32f4xx_hal_adc.o       1 346
+    stm32f4xx_hal_adc_ex.o        2
+    stm32f4xx_hal_cortex.o      340
+    stm32f4xx_hal_dma.o          40
+    stm32f4xx_hal_gpio.o        616
+    stm32f4xx_hal_i2c.o         500
+    stm32f4xx_hal_msp.o       2 120
+    stm32f4xx_hal_rcc.o       1 596
+    stm32f4xx_hal_rcc_ex.o      400
+    stm32f4xx_hal_rtc.o       1 692
+    stm32f4xx_hal_rtc_ex.o        2
+    stm32f4xx_hal_spi.o         142
+    stm32f4xx_hal_tim.o       1 126
+    stm32f4xx_hal_tim_ex.o      176
+    stm32f4xx_hal_uart.o      2 096
+    stm32f4xx_it.o              312       84
+    system_stm32f4xx.o           32       27        4
+    x509.o                    1 504
+    x509_crt.o                3 074       88
+    -------------------------------------------------
+    Total:                  105 320   21 674    5 129
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    abort.o                       6
+    dlmalloc.o                5 412               496
+    exit.o                        4
+    heaptramp0.o                  4
+    low_level_init.o              4
+    printf.o                     40
+    putchar.o                    12
+    rand.o                      176        7      140
+    snprintf.o                   68
+    sprintf.o                    64
+    strstr.o                     48
+    time_trampoline.o             4
+    xencoding_8859_1.o           30
+    xfail_s.o                    68                 4
+    xfiles.o                              62      152
+    xgetmemchunk.o               44                 4
+    xlocale_c.o                 116      117      128
+    xmbcurmax.o                  10
+    xprintffull.o             3 954
+    xprout.o                     22
+    xsnprout.o                   26
+    xsprout.o                    10
+    -------------------------------------------------
+    Total:                   10 122      186      924
+
+m7M_tls.a: [4]
+    DblAdd.o                    360
+    DblCmpGe.o                   46
+    DblCmpLe.o                   46
+    DblDiv.o                    582
+    DblMul.o                    418
+    DblSub.o                    226
+    DblToS32.o                   58
+    DblToU32.o                   40
+    S32ToDbl.o                   34
+    U32ToDbl.o                   26
+    fpinit_M.o                   34
+    frexp.o                     112
+    ldexp.o                     314
+    -------------------------------------------------
+    Total:                    2 296
+
+rt7M_tl.a: [5]
+    ABImemclr.o                   6
+    ABImemclr4.o                  6
+    ABImemcpy.o                 166
+    ABImemmove.o                150
+    ABImemset.o                 102
+    ABImemset48.o                50
+    I64DivMod.o                 238
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      26
+    cstartup_M.o                 12
+    data_init.o                  40
+    lz77_init_single.o          122
+    memchr.o                     88
+    memcmp.o                    104
+    memset.o                     20
+    strchr.o                     22
+    strlen.o                     54
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                    1 282
+
+shb_l.a: [6]
+    exit.o                       20
+    time.o                       18
+    -------------------------------------------------
+    Total:                       38
+
+    Gaps                         53       10
+    Linker created                        32   94 208
+-----------------------------------------------------
+    Grand Total:            119 111   21 902  100 261
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x08020f20           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08020f40           --   Gb  - Linker created -
+?main                   0x08021615          Code  Gb  cmain.o [5]
+ADC_IRQHandler          0x0801f091     0xa  Code  Gb  stm32f4xx_it.o [1]
+ADC_Init                0x08019067   0x15a  Code  Lc  stm32f4xx_hal_adc.o [1]
+AHBPrescTable           0x08021c34    0x10  Data  Gb  system_stm32f4xx.o [1]
+APBPrescTable           0x0802204c     0x8  Data  Gb  system_stm32f4xx.o [1]
+BusFault_Handler        0x0801f06f     0xa  Code  Gb  stm32f4xx_it.o [1]
+CSQ_Status              0x200017a3     0x1  Data  Gb  main.o [1]
+CSQ_Strength            0x200017a4     0x1  Data  Gb  main.o [1]
+CSTACK$$Base            0x200017a8           --   Gb  - Linker created -
+CSTACK$$Limit           0x200137a8           --   Gb  - Linker created -
+CacheMore               0x0801b45d    0x24  Code  Lc  xlocale_c.o [3]
+Dates                   0x20001784     0x4  Data  Gb  main.o [1]
+DebugMon_Handler        0x0801f085     0x2  Code  Gb  stm32f4xx_it.o [1]
+Error_Handler           0x08016be5     0x2  Code  Gb  main.o [1]
+FSb                     0x0801f2c8   0x100  Data  Lc  aes.o [1]
+FT0                     0x0801c608   0x400  Data  Lc  aes.o [1]
+FT1                     0x0801ca08   0x400  Data  Lc  aes.o [1]
+FT2                     0x0801ce08   0x400  Data  Lc  aes.o [1]
+FT3                     0x0801d208   0x400  Data  Lc  aes.o [1]
+GSM_Status_Check        0x08015649    0xfc  Code  Gb  main.o [1]
+HAL_ADCEx_InjectedConvCpltCallback
+                        0x0801b451     0x2  Code  Wk  stm32f4xx_hal_adc_ex.o [1]
+HAL_ADC_ConfigChannel   0x08018ee9   0x17e  Code  Gb  stm32f4xx_hal_adc.o [1]
+HAL_ADC_IRQHandler      0x08018cff   0x1ea  Code  Gb  stm32f4xx_hal_adc.o [1]
+HAL_ADC_Init            0x08018c99    0x66  Code  Gb  stm32f4xx_hal_adc.o [1]
+HAL_ADC_MspInit         0x0801a663    0x86  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_DMA_Abort_IT        0x0801ae79    0x28  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_Delay               0x0801849d    0x28  Code  Wk  stm32f4xx_hal.o [1]
+HAL_GPIO_Init           0x08018235   0x21c  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x08018451    0x14  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GetTick             0x0801ae6d     0xc  Code  Wk  stm32f4xx_hal.o [1]
+HAL_I2C_Init            0x080191d5   0x1da  Code  Gb  stm32f4xx_hal_i2c.o [1]
+HAL_I2C_MspInit         0x0801a6e9    0x80  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_IncTick             0x0801f191    0x18  Code  Wk  stm32f4xx_hal.o [1]
+HAL_Init                0x08016c11    0x3a  Code  Gb  stm32f4xx_hal.o [1]
+HAL_InitTick            0x0801a5cd    0x4c  Code  Wk  stm32f4xx_hal.o [1]
+HAL_MspInit             0x0801a619    0x4a  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ      0x0801a593     0xe  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x0801a569    0x2a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x0801a55d     0xc  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x08018b09   0x16a  Code  Gb  stm32f4xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x080188d9   0x14c  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08018a25     0x6  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x08018a2b    0x16  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x08018a41    0x16  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x080184cd   0x40c  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_RTCEx_AlarmBEventCallback
+                        0x0801aea5     0x2  Code  Wk  stm32f4xx_hal_rtc_ex.o [1]
+HAL_RTC_AlarmAEventCallback
+                        0x08016aef     0xc  Code  Gb  main.o [1]
+HAL_RTC_AlarmIRQHandler
+                        0x08017e5f    0x5e  Code  Gb  stm32f4xx_hal_rtc.o [1]
+HAL_RTC_GetDate         0x08017c1d    0x54  Code  Gb  stm32f4xx_hal_rtc.o [1]
+HAL_RTC_GetTime         0x08017ab9    0x68  Code  Gb  stm32f4xx_hal_rtc.o [1]
+HAL_RTC_Init            0x080178dd    0xcc  Code  Gb  stm32f4xx_hal_rtc.o [1]
+HAL_RTC_MspInit         0x0801a769    0x28  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_RTC_SetAlarm_IT     0x08017c71   0x1ee  Code  Gb  stm32f4xx_hal_rtc.o [1]
+HAL_RTC_SetDate         0x08017b21    0xfc  Code  Gb  stm32f4xx_hal_rtc.o [1]
+HAL_RTC_SetTime         0x080179a9   0x110  Code  Gb  stm32f4xx_hal_rtc.o [1]
+HAL_RTC_WaitForSynchro  0x08017ed9    0x36  Code  Gb  stm32f4xx_hal_rtc.o [1]
+HAL_SPI_Init            0x080193c9    0x8e  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_MspInit         0x0801a791    0x7e  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_SYSTICK_Config      0x0801a5a1     0xc  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_TIMEx_BreakCallback
+                        0x0801ae67     0x2  Code  Wk  stm32f4xx_hal_tim_ex.o [1]
+HAL_TIMEx_CommutCallback
+                        0x0801ae6b     0x2  Code  Wk  stm32f4xx_hal_tim_ex.o [1]
+HAL_TIMEx_MasterConfigSynchronization
+                        0x08019459    0x8e  Code  Gb  stm32f4xx_hal_tim_ex.o [1]
+HAL_TIM_Base_Init       0x08016c51    0x38  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit    0x0801a80f   0x2bc  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_TIM_Base_Start_IT   0x08016c89    0x2a  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_Base_Stop_IT    0x08016cb3    0x36  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_ConfigClockSource
+                        0x08016e5f    0xec  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_IRQHandler      0x08016ce9   0x176  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_PeriodElapsedCallback
+                        0x08016a21    0xce  Code  Gb  main.o [1]
+HAL_UART_IRQHandler     0x08017277   0x150  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_Init           0x080170b1    0x76  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_MspInit        0x0801aacb   0x306  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_UART_Receive_IT     0x08017207    0x70  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_RxCpltCallback
+                        0x080169a5    0x62  Code  Gb  main.o [1]
+HAL_UART_Transmit       0x08017127    0xe0  Code  Gb  stm32f4xx_hal_uart.o [1]
+HEAP$$Base              0x200137a8           --   Gb  - Linker created -
+HEAP$$Limit             0x200187a8           --   Gb  - Linker created -
+HardFault_Handler       0x0801f05b     0xa  Code  Gb  stm32f4xx_it.o [1]
+K                       0x0801fcc8   0x100  Data  Lc  sha256.o [1]
+LHs                     0x080204c8    0x40  Data  Lc  des.o [1]
+Lan_rev_flag            0x200017a2     0x1  Data  Gb  main.o [1]
+LoadInt                 0x080196d3    0x7a  Code  Lc  xprintffull.o [3]
+MX_ADC1_Init            0x08015c63    0xa8  Code  Lc  main.o [1]
+MX_GPIO_Init            0x0801675d   0x23c  Code  Lc  main.o [1]
+MX_I2C1_Init            0x08015d0b    0x62  Code  Lc  main.o [1]
+MX_MBEDTLS_Init         0x08017f79    0x92  Code  Gb  mbedtls.o [1]
+MX_RTC_Init             0x08015d6d   0x134  Code  Lc  main.o [1]
+MX_SPI1_Init            0x08015eb1    0x7a  Code  Lc  main.o [1]
+MX_TIM10_Init           0x080162e1    0x4a  Code  Lc  main.o [1]
+MX_TIM11_Init           0x08016331    0x4a  Code  Lc  main.o [1]
+MX_TIM12_Init           0x08016391    0x6e  Code  Lc  main.o [1]
+MX_TIM13_Init           0x0801640d    0x4a  Code  Lc  main.o [1]
+MX_TIM14_Init           0x0801645d    0x4a  Code  Lc  main.o [1]
+MX_TIM2_Init            0x08015f39    0x96  Code  Lc  main.o [1]
+MX_TIM3_Init            0x08015fd5    0x94  Code  Lc  main.o [1]
+MX_TIM4_Init            0x08016069    0x92  Code  Lc  main.o [1]
+MX_TIM5_Init            0x080160fd    0x94  Code  Lc  main.o [1]
+MX_TIM6_Init            0x08016191    0x6a  Code  Lc  main.o [1]
+MX_TIM7_Init            0x08016201    0x5c  Code  Lc  main.o [1]
+MX_TIM9_Init            0x0801625d    0x6e  Code  Lc  main.o [1]
+MX_UART4_Init           0x080164c1    0x58  Code  Lc  main.o [1]
+MX_UART5_Init           0x0801653d    0x58  Code  Lc  main.o [1]
+MX_USART1_UART_Init     0x080165a9    0x58  Code  Lc  main.o [1]
+MX_USART2_UART_Init     0x08016611    0x58  Code  Lc  main.o [1]
+MX_USART3_UART_Init     0x08016681    0x58  Code  Lc  main.o [1]
+MX_USART6_UART_Init     0x080166e9    0x58  Code  Lc  main.o [1]
+MemManage_Handler       0x0801f065     0xa  Code  Gb  stm32f4xx_it.o [1]
+NMI_Handler             0x0801f059     0x2  Code  Gb  stm32f4xx_it.o [1]
+NVIC_EncodePriority     0x0801a4eb    0x42  Code  Lc  stm32f4xx_hal_cortex.o [1]
+PendSV_Handler          0x0801f087     0x2  Code  Gb  stm32f4xx_it.o [1]
+RCON                    0x08020dec    0x28  Data  Lc  aes.o [1]
+RETURN_OK               0x200017a5     0x1  Data  Gb  main.o [1]
+RHs                     0x08020508    0x40  Data  Lc  des.o [1]
+RSb                     0x0801f3c8   0x100  Data  Lc  aes.o [1]
+RT0                     0x0801d608   0x400  Data  Lc  aes.o [1]
+RT1                     0x0801da08   0x400  Data  Lc  aes.o [1]
+RT2                     0x0801de08   0x400  Data  Lc  aes.o [1]
+RT3                     0x0801e208   0x400  Data  Lc  aes.o [1]
+RTC_Alarm_IRQHandler    0x0801f0f5     0xa  Code  Gb  stm32f4xx_it.o [1]
+RTC_Bcd2ToByte          0x08017f5f    0x1a  Code  Gb  stm32f4xx_hal_rtc.o [1]
+RTC_ByteToBcd2          0x08017f49    0x16  Code  Gb  stm32f4xx_hal_rtc.o [1]
+RTC_EnterInitMode       0x08017f0f    0x3a  Code  Gb  stm32f4xx_hal_rtc.o [1]
+Region$$Table$$Base     0x08020f20           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08020f40           --   Gb  - Linker created -
+SB1                     0x0801f4c8   0x100  Data  Lc  des.o [1]
+SB2                     0x0801f5c8   0x100  Data  Lc  des.o [1]
+SB3                     0x0801f6c8   0x100  Data  Lc  des.o [1]
+SB4                     0x0801f7c8   0x100  Data  Lc  des.o [1]
+SB5                     0x0801f8c8   0x100  Data  Lc  des.o [1]
+SB6                     0x0801f9c8   0x100  Data  Lc  des.o [1]
+SB7                     0x0801fac8   0x100  Data  Lc  des.o [1]
+SB8                     0x0801fbc8   0x100  Data  Lc  des.o [1]
+SIM_Buf_length          0x20001780     0x4  Data  Gb  main.o [1]
+SIM_DATA_BUF            0x20000610   0x400  Data  Gb  main.o [1]
+SIM_UART_Timeout        0x2000177c     0x4  Data  Gb  main.o [1]
+SVC_Handler             0x0801f083     0x2  Code  Gb  stm32f4xx_it.o [1]
+SysTick_Config          0x0801a52d    0x30  Code  Lc  stm32f4xx_hal_cortex.o [1]
+SysTick_Handler         0x0801f089     0x8  Code  Gb  stm32f4xx_it.o [1]
+SystemClock_Config      0x08015b89    0xda  Code  Gb  main.o [1]
+SystemCoreClock         0x20000538     0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit              0x08021221    0x16  Code  Gb  system_stm32f4xx.o [1]
+TIM1_BRK_TIM9_IRQHandler
+                        0x0801f09b     0xa  Code  Gb  stm32f4xx_it.o [1]
+TIM1_TRG_COM_TIM11_IRQHandler
+                        0x0801f0af     0xa  Code  Gb  stm32f4xx_it.o [1]
+TIM1_UP_TIM10_IRQHandler
+                        0x0801f0a5     0xa  Code  Gb  stm32f4xx_it.o [1]
+TIM2_IRQHandler         0x0801f0b9     0xa  Code  Gb  stm32f4xx_it.o [1]
+TIM3_IRQHandler         0x0801f0c3     0xa  Code  Gb  stm32f4xx_it.o [1]
+TIM4_IRQHandler         0x0801f0cd     0xa  Code  Gb  stm32f4xx_it.o [1]
+TIM5_IRQHandler         0x0801f0ff     0xa  Code  Gb  stm32f4xx_it.o [1]
+TIM6_DAC_IRQHandler     0x0801f11d     0xa  Code  Gb  stm32f4xx_it.o [1]
+TIM7_IRQHandler         0x0801f127     0xa  Code  Gb  stm32f4xx_it.o [1]
+TIM_Base_SetConfig      0x08016f4b    0xc6  Code  Gb  stm32f4xx_hal_tim.o [1]
+TIM_ETR_SetConfig       0x08017097    0x18  Code  Gb  stm32f4xx_hal_tim.o [1]
+TIM_ITRx_SetConfig      0x08017087    0x10  Code  Lc  stm32f4xx_hal_tim.o [1]
+TIM_TI1_ConfigInputStage
+                        0x0801703d    0x24  Code  Lc  stm32f4xx_hal_tim.o [1]
+TIM_TI2_ConfigInputStage
+                        0x08017061    0x26  Code  Lc  stm32f4xx_hal_tim.o [1]
+Ticks_counter           0x20001788     0x4  Data  Gb  main.o [1]
+Times                   0x20001758    0x14  Data  Gb  main.o [1]
+UART4_IRQHandler        0x0801f109     0xa  Code  Gb  stm32f4xx_it.o [1]
+UART5_IRQHandler        0x0801f113     0xa  Code  Gb  stm32f4xx_it.o [1]
+UART_DMAAbortOnError    0x08017459    0x16  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_EndRxTransfer      0x08017435    0x20  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_EndTransmit_IT     0x080174df    0x20  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_Receive_IT         0x080174ff    0xae  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_SetConfig          0x080175ad   0x322  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_Transmit_IT        0x08017471    0x6e  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                        0x080173c7    0x6e  Code  Lc  stm32f4xx_hal_uart.o [1]
+USART1_IRQHandler       0x0801f0d7     0xa  Code  Gb  stm32f4xx_it.o [1]
+USART2_IRQHandler       0x0801f0e1     0xa  Code  Gb  stm32f4xx_it.o [1]
+USART3_IRQHandler       0x0801f0eb     0xa  Code  Gb  stm32f4xx_it.o [1]
+USART6_IRQHandler       0x0801f131     0xa  Code  Gb  stm32f4xx_it.o [1]
+UsageFault_Handler      0x0801f079     0xa  Code  Gb  stm32f4xx_it.o [1]
+Wait_times              0x2000060c     0x1  Data  Gb  main.o [1]
+_Encoding_8859_1_Mbrlen
+                        0x08003f21     0x2  Code  Gb  xencoding_8859_1.o [3]
+_Encoding_8859_1_Wctomb
+                        0x08003f0f    0x12  Code  Gb  xencoding_8859_1.o [3]
+_GenldFull              0x0801a147   0x27e  Code  Lc  xprintffull.o [3]
+_LdtobFull              0x08019d2d   0x3f0  Code  Lc  xprintffull.o [3]
+_LitobFull              0x08019bd1   0x116  Code  Lc  xprintffull.o [3]
+_Locale_lconv           0x20000544    0x38  Data  Lc  xlocale_c.o [3]
+_PrintfFull             0x08019505   0x1b6  Code  Gb  xprintffull.o [3]
+_Prout                  0x08021885    0x16  Code  Gb  xprout.o [3]
+_PutcharsFull           0x0801a3c5    0x2e  Code  Lc  xprintffull.o [3]
+_PutfldFull             0x0801974d   0x2d0  Code  Lc  xprintffull.o [3]
+_PutstrFull             0x08019b13    0xbe  Code  Lc  xprintffull.o [3]
+_PuttxtFull             0x08019a1d    0xf6  Code  Lc  xprintffull.o [3]
+_Rand_idx               0x2000102c     0x4  Data  Lc  rand.o [3]
+_Rand_rv                0x20000fac    0x80  Data  Lc  rand.o [3]
+_Randinit               0x2000053c     0x1  Data  Gb  rand.o [3]
+_Randseed               0x20000540     0x4  Data  Gb  rand.o [3]
+_SNProut                0x08003f63    0x1a  Code  Gb  xsnprout.o [3]
+_SProut                 0x080040a3     0xa  Code  Gb  xsprout.o [3]
+__NVIC_EnableIRQ        0x0801a4a7    0x1e  Code  Lc  stm32f4xx_hal_cortex.o [1]
+__NVIC_GetPriorityGrouping
+                        0x0801a49b     0xc  Code  Lc  stm32f4xx_hal_cortex.o [1]
+__NVIC_SetPriority      0x0801a4c5    0x26  Code  Lc  stm32f4xx_hal_cortex.o [1]
+__NVIC_SetPriorityGrouping
+                        0x0801a479    0x22  Code  Lc  stm32f4xx_hal_cortex.o [1]
+__aeabi_cdcmple         0x0801b789          Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x0801b7b9          Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0x0801b925          Code  Gb  DblToS32.o [4]
+__aeabi_d2uiz           0x0801bcb1          Code  Gb  DblToU32.o [4]
+__aeabi_ddiv            0x0801ba69          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0801b575          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x0801b985          Code  Gb  DblSub.o [4]
+__aeabi_i2d             0x0801b961          Code  Gb  S32ToDbl.o [4]
+__aeabi_ldiv0           0x080040ad          Code  Gb  I64DivZer.o [5]
+__aeabi_memclr          0x0800409d          Code  Gb  ABImemclr.o [5]
+__aeabi_memclr4         0x080184c5          Code  Gb  ABImemclr4.o [5]
+__aeabi_memcpy          0x08003d89          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x08003da9          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x08003da9          Code  Gb  ABImemcpy.o [5]
+__aeabi_memmove         0x0800a9b5          Code  Gb  ABImemmove.o [5]
+__aeabi_memmove4        0x0800a9b5          Code  Gb  ABImemmove.o [5]
+__aeabi_memmove8        0x0800a9b5          Code  Gb  ABImemmove.o [5]
+__aeabi_memset          0x08003ea9          Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x0801bcd9          Code  Gb  U32ToDbl.o [4]
+__aeabi_uldivmod        0x08003f7d          Code  Gb  I64DivMod.o [5]
+__cmain                 0x08021615          Code  Gb  cmain.o [5]
+__data_GetMemChunk      0x08004071    0x2c  Code  Gb  xgetmemchunk.o [3]
+__data_GetMemChunk::start
+                        0x20001794     0x4  Data  Lc  xgetmemchunk.o [3]
+__exit                  0x080040b1    0x14  Code  Gb  exit.o [6]
+__iar_Fail_s            0x0801b4cd    0x1e  Code  Gb  xfail_s.o [3]
+__iar_Mbcurmax          0x0801b569     0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Memchr            0x0801b511          Code  Gb  memchr.o [5]
+__iar_Memset            0x08003ea9          Code  Gb  ABImemset.o [5]
+__iar_Memset4_word      0x0801b41d          Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x0801b41d          Code  Gb  ABImemset48.o [5]
+__iar_Memset_word       0x08003eb1          Code  Gb  ABImemset.o [5]
+__iar_Stdout            0x200005c4    0x48  Data  Gb  xfiles.o [3]
+__iar_Strchr            0x08010b9d          Code  Gb  strchr.o [5]
+__iar_dadd              0x0801b995          Code  Gb  DblSub.o [4]
+__iar_data_init3        0x08020e8d    0x28  Code  Gb  data_init.o [5]
+__iar_dlcalloc          0x08003d47    0x3e  Code  Gb  dlmalloc.o [3]
+__iar_dlfree            0x08003855   0x4f2  Code  Gb  dlmalloc.o [3]
+__iar_dlmalloc          0x0800359d   0x2b8  Code  Gb  dlmalloc.o [3]
+__iar_dsub              0x0801bcf5          Code  Gb  DblAdd.o [4]
+__iar_dsubStart         0x0801bd07          Code  Gb  DblAdd.o [4]
+__iar_frexp             0x0801b725          Code  Gb  frexp.o [4]
+__iar_frexpl            0x0801b725          Code  Gb  frexp.o [4]
+__iar_globLocale        0x2000057c    0x48  Data  Lc  xlocale_c.o [3]
+__iar_global_Locale     0x0801b459     0x4  Code  Gb  xlocale_c.o [3]
+__iar_init_vfp          0x08020efd          Code  Gb  fpinit_M.o [4]
+__iar_ldexp64           0x0801b7e9          Code  Gb  ldexp.o [4]
+__iar_lz77_init_single3
+                        0x08003e2f    0x7a  Code  Gb  lz77_init_single.o [5]
+__iar_program_start     0x08021ef1          Code  Gb  cstartup_M.o [5]
+__iar_scalbln64         0x0801b7e9          Code  Gb  ldexp.o [4]
+__iar_scalbn64          0x0801b7e9          Code  Gb  ldexp.o [4]
+__iar_softfp___iar_frexp64
+                        0x0801b719          Code  Gb  frexp.o [4]
+__iar_softfp_frexp      0x0801b719          Code  Gb  frexp.o [4]
+__iar_softfp_frexpl     0x0801b719          Code  Gb  frexp.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001          Data  Gb  command line/config [2]
+__iar_zero_init3        0x08020789    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0802162f     0x4  Code  Gb  low_level_init.o [3]
+__time32                0x0800f11d    0x12  Code  Gb  time.o [6]
+__vector_table          0x08000000          Data  Gb  startup_stm32f407xx.o [1]
+_call_main              0x08021621          Code  Gb  cmain.o [5]
+_exit                   0x08021639          Code  Gb  cexit.o [5]
+_gLocale_mblen          0x0801b4b9     0x4  Code  Gb  xlocale_c.o [3]
+_gLocale_mblenInt       0x0801b481    0x34  Code  Gb  xlocale_c.o [3]
+_gLocale_wctomb         0x0801b4bd     0x4  Code  Gb  xlocale_c.o [3]
+_gLocale_wctombInt      0x0801b4b5     0x4  Code  Gb  xlocale_c.o [3]
+_gm_                    0x20000a10   0x1d8  Data  Lc  dlmalloc.o [3]
+_main                   0x0802162b          Code  Gb  cmain.o [5]
+abort                   0x0800406b     0x6  Code  Gb  abort.o [3]
+add_segment             0x08002c29   0x202  Code  Lc  dlmalloc.o [3]
+aes_128_cbc_info        0x080212b0    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_128_ccm_info        0x08021320    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_128_ecb_info        0x0802125c    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_192_cbc_info        0x080212cc    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_192_ccm_info        0x0802133c    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_192_ecb_info        0x08021278    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_256_cbc_info        0x080212e8    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_256_ccm_info        0x08021358    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_256_ecb_info        0x08021294    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_crypt_cbc_wrap      0x0801ecaf    0x30  Code  Lc  cipher_wrap.o [1]
+aes_crypt_ecb_wrap      0x0801ec95    0x1a  Code  Lc  cipher_wrap.o [1]
+aes_ctx_alloc           0x0801ed07    0x20  Code  Lc  cipher_wrap.o [1]
+aes_ctx_free            0x0801ed27    0x12  Code  Lc  cipher_wrap.o [1]
+aes_info                0x08021240    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_setkey_dec_wrap     0x0801ecdf    0x14  Code  Lc  cipher_wrap.o [1]
+aes_setkey_enc_wrap     0x0801ecf3    0x14  Code  Lc  cipher_wrap.o [1]
+base64_dec_map          0x08020100    0x80  Data  Lc  base64.o [1]
+block_cipher_df         0x0801aebd   0x1bc  Code  Lc  ctr_drbg.o [1]
+brainpoolP256r1_a       0x080210c0    0x20  Data  Lc  ecp_curves.o [1]
+brainpoolP256r1_b       0x080210e0    0x20  Data  Lc  ecp_curves.o [1]
+brainpoolP256r1_gx      0x08021100    0x20  Data  Lc  ecp_curves.o [1]
+brainpoolP256r1_gy      0x08021120    0x20  Data  Lc  ecp_curves.o [1]
+brainpoolP256r1_n       0x08021140    0x20  Data  Lc  ecp_curves.o [1]
+brainpoolP256r1_p       0x080210a0    0x20  Data  Lc  ecp_curves.o [1]
+brainpoolP384r1_a       0x08020a98    0x30  Data  Lc  ecp_curves.o [1]
+brainpoolP384r1_b       0x08020ac8    0x30  Data  Lc  ecp_curves.o [1]
+brainpoolP384r1_gx      0x08020af8    0x30  Data  Lc  ecp_curves.o [1]
+brainpoolP384r1_gy      0x08020b28    0x30  Data  Lc  ecp_curves.o [1]
+brainpoolP384r1_n       0x08020b58    0x30  Data  Lc  ecp_curves.o [1]
+brainpoolP384r1_p       0x08020a68    0x30  Data  Lc  ecp_curves.o [1]
+brainpoolP512r1_a       0x08020588    0x40  Data  Lc  ecp_curves.o [1]
+brainpoolP512r1_b       0x080205c8    0x40  Data  Lc  ecp_curves.o [1]
+brainpoolP512r1_gx      0x08020608    0x40  Data  Lc  ecp_curves.o [1]
+brainpoolP512r1_gy      0x08020648    0x40  Data  Lc  ecp_curves.o [1]
+brainpoolP512r1_n       0x08020688    0x40  Data  Lc  ecp_curves.o [1]
+brainpoolP512r1_p       0x08020548    0x40  Data  Lc  ecp_curves.o [1]
+cacert                  0x20000d28   0x134  Data  Gb  mbedtls.o [1]
+ccm_aes_info            0x08021304    0x1c  Data  Lc  cipher_wrap.o [1]
+ccm_aes_setkey_wrap     0x0801ed39    0x16  Code  Lc  cipher_wrap.o [1]
+ccm_auth_crypt          0x0800d0f1   0x4a8  Code  Lc  ccm.o [1]
+ccm_ctx_alloc           0x0801ec69    0x1a  Code  Lc  cipher_wrap.o [1]
+ccm_ctx_free            0x0801ec83    0x12  Code  Lc  cipher_wrap.o [1]
+ciphersuite_definitions
+                        0x0801f1a8   0x120  Data  Lc  ssl_ciphersuites.o [1]
+ciphersuite_preference  0x08021ee4     0xc  Data  Lc  ssl_ciphersuites.o [1]
+conf                    0x20001030    0x6c  Data  Gb  mbedtls.o [1]
+ctr_drbg                0x20000be8   0x140  Data  Gb  mbedtls.o [1]
+ctr_drbg_update_internal
+                        0x0801b079    0xcc  Code  Lc  ctr_drbg.o [1]
+derive_mpi              0x0801be5d    0x72  Code  Lc  ecdsa.o [1]
+des3_crypt_cbc_wrap     0x0801edab    0x30  Code  Lc  cipher_wrap.o [1]
+des3_crypt_ecb_wrap     0x0801ed65    0x16  Code  Lc  cipher_wrap.o [1]
+des3_ctx_alloc          0x0801ee77    0x20  Code  Lc  cipher_wrap.o [1]
+des3_ctx_free           0x0801ee97    0x12  Code  Lc  cipher_wrap.o [1]
+des3_set2key            0x08011a75    0x9a  Code  Lc  des.o [1]
+des3_set2key_dec_wrap   0x0801edff    0x12  Code  Lc  cipher_wrap.o [1]
+des3_set2key_enc_wrap   0x0801ee11    0x12  Code  Lc  cipher_wrap.o [1]
+des3_set3key            0x08011b53    0x96  Code  Lc  des.o [1]
+des3_set3key_dec_wrap   0x0801ee23    0x12  Code  Lc  cipher_wrap.o [1]
+des3_set3key_enc_wrap   0x0801ee35    0x12  Code  Lc  cipher_wrap.o [1]
+des_cbc_info            0x080213ac    0x1c  Data  Lc  cipher_wrap.o [1]
+des_crypt_cbc_wrap      0x0801ed7b    0x30  Code  Lc  cipher_wrap.o [1]
+des_crypt_ecb_wrap      0x0801ed4f    0x16  Code  Lc  cipher_wrap.o [1]
+des_ctx_alloc           0x0801ee47    0x1e  Code  Lc  cipher_wrap.o [1]
+des_ctx_free            0x0801ee65    0x12  Code  Lc  cipher_wrap.o [1]
+des_ecb_info            0x08021390    0x1c  Data  Lc  cipher_wrap.o [1]
+des_ede3_cbc_info       0x08021454    0x1c  Data  Lc  cipher_wrap.o [1]
+des_ede3_ecb_info       0x08021438    0x1c  Data  Lc  cipher_wrap.o [1]
+des_ede3_info           0x0802141c    0x1c  Data  Lc  cipher_wrap.o [1]
+des_ede_cbc_info        0x08021400    0x1c  Data  Lc  cipher_wrap.o [1]
+des_ede_ecb_info        0x080213e4    0x1c  Data  Lc  cipher_wrap.o [1]
+des_ede_info            0x080213c8    0x1c  Data  Lc  cipher_wrap.o [1]
+des_info                0x08021374    0x1c  Data  Lc  cipher_wrap.o [1]
+des_setkey_dec_wrap     0x0801eddb    0x12  Code  Lc  cipher_wrap.o [1]
+des_setkey_enc_wrap     0x0801eded    0x12  Code  Lc  cipher_wrap.o [1]
+ecdsa_alloc_wrap        0x0801e99b    0x1a  Code  Lc  pk_wrap.o [1]
+ecdsa_can_do            0x0801e8f5    0x10  Code  Lc  pk_wrap.o [1]
+ecdsa_free_wrap         0x0801e9b5    0x12  Code  Lc  pk_wrap.o [1]
+ecdsa_sign_wrap         0x0801e959    0x42  Code  Lc  pk_wrap.o [1]
+ecdsa_signature_to_asn1
+                        0x0801c1f3    0x90  Code  Lc  ecdsa.o [1]
+ecdsa_verify_wrap       0x0801e905    0x36  Code  Lc  pk_wrap.o [1]
+eckey_alloc_wrap        0x0801e8a3    0x1a  Code  Lc  pk_wrap.o [1]
+eckey_can_do            0x0801e7c3    0x1c  Code  Lc  pk_wrap.o [1]
+eckey_check_pair        0x0801e893    0x10  Code  Lc  pk_wrap.o [1]
+eckey_debug             0x0801e8cf    0x10  Code  Lc  pk_wrap.o [1]
+eckey_free_wrap         0x0801e8bd    0x12  Code  Lc  pk_wrap.o [1]
+eckey_get_bitlen        0x0801e7df     0x4  Code  Lc  pk_wrap.o [1]
+eckey_sign_wrap         0x0801e833    0x60  Code  Lc  pk_wrap.o [1]
+eckey_verify_wrap       0x0801e7e3    0x50  Code  Lc  pk_wrap.o [1]
+eckeydh_can_do          0x0801e8df    0x16  Code  Lc  pk_wrap.o [1]
+ecp_add_mixed           0x08004c6f   0x40e  Code  Lc  ecp.o [1]
+ecp_check_pubkey_mx     0x08005fe5    0x20  Code  Lc  ecp.o [1]
+ecp_check_pubkey_sw     0x08005d75   0x16a  Code  Lc  ecp.o [1]
+ecp_comb_fixed          0x080051ad    0xc4  Code  Lc  ecp.o [1]
+ecp_double_add_mxz      0x08005811   0x390  Code  Lc  ecp.o [1]
+ecp_double_jac          0x080047b5   0x4ba  Code  Lc  ecp.o [1]
+ecp_get_type            0x08004155    0x1a  Code  Lc  ecp.o [1]
+ecp_group_load          0x0800631b    0x8a  Code  Lc  ecp_curves.o [1]
+ecp_mod_koblitz         0x08006a2f   0x1b8  Code  Lc  ecp_curves.o [1]
+ecp_mod_p192k1          0x08006be9    0x1a  Code  Lc  ecp_curves.o [1]
+ecp_mod_p192k1::Rp      0x20000004     0x8  Data  Lc  ecp_curves.o [1]
+ecp_mod_p224k1          0x08006c05    0x1a  Code  Lc  ecp_curves.o [1]
+ecp_mod_p224k1::Rp      0x2000000c     0x8  Data  Lc  ecp_curves.o [1]
+ecp_mod_p255            0x0800686d    0xb8  Code  Lc  ecp_curves.o [1]
+ecp_mod_p256k1          0x08006c21    0x1a  Code  Lc  ecp_curves.o [1]
+ecp_mod_p256k1::Rp      0x20000014     0x8  Data  Lc  ecp_curves.o [1]
+ecp_mod_p448            0x08006925   0x10a  Code  Lc  ecp_curves.o [1]
+ecp_modp                0x0800439f    0x90  Code  Lc  ecp.o [1]
+ecp_mpi_load            0x080062fd     0xe  Code  Lc  ecp_curves.o [1]
+ecp_mpi_set1            0x0800630b    0x10  Code  Lc  ecp_curves.o [1]
+ecp_mpi_set1::one       0x20000000     0x4  Data  Lc  ecp_curves.o [1]
+ecp_mul_comb            0x08005505   0x1fa  Code  Lc  ecp.o [1]
+ecp_mul_comb_core       0x0800544d    0xb8  Code  Lc  ecp.o [1]
+ecp_mul_mxz             0x08005ba1   0x13c  Code  Lc  ecp.o [1]
+ecp_normalize_jac       0x0800442f    0xde  Code  Lc  ecp.o [1]
+ecp_normalize_jac_many  0x0800450d   0x232  Code  Lc  ecp.o [1]
+ecp_normalize_mxz       0x080056ff    0x4e  Code  Lc  ecp.o [1]
+ecp_precompute_comb     0x08005271   0x13a  Code  Lc  ecp.o [1]
+ecp_randomize_jac       0x0800507d   0x12a  Code  Lc  ecp.o [1]
+ecp_randomize_mxz       0x0800574d    0xbe  Code  Lc  ecp.o [1]
+ecp_safe_invert_jac     0x08004755    0x60  Code  Lc  ecp.o [1]
+ecp_select_comb         0x080053ab    0xa2  Code  Lc  ecp.o [1]
+ecp_supported_curves    0x08020070    0x90  Data  Lc  ecp.o [1]
+ecp_supported_grp_id    0x2000176c     0xc  Data  Lc  ecp.o [1]
+ecp_use_curve25519      0x080063a5    0xac  Code  Lc  ecp_curves.o [1]
+ecp_use_curve448        0x08006451    0xec  Code  Lc  ecp_curves.o [1]
+entropy                 0x20000f10    0x9c  Data  Gb  mbedtls.o [1]
+exit                    0x08021633     0x4  Code  Gb  exit.o [3]
+fputc                   0x0801add1    0x18  Code  Gb  stm32f4xx_hal_msp.o [1]
+free                    0x08002861     0x4  Code  Gb  heaptramp0.o [3]
+get_no_padding          0x08009205    0x14  Code  Lc  cipher.o [1]
+hadc1                   0x20001258    0x48  Data  Gb  main.o [1]
+hi2c1                   0x200011b4    0x54  Data  Gb  main.o [1]
+hrtc                    0x20001720    0x20  Data  Gb  main.o [1]
+hspi1                   0x20001104    0x58  Data  Gb  main.o [1]
+htim10                  0x20001460    0x40  Data  Gb  main.o [1]
+htim11                  0x200014a0    0x40  Data  Gb  main.o [1]
+htim12                  0x200014e0    0x40  Data  Gb  main.o [1]
+htim13                  0x20001520    0x40  Data  Gb  main.o [1]
+htim14                  0x20001560    0x40  Data  Gb  main.o [1]
+htim2                   0x200012a0    0x40  Data  Gb  main.o [1]
+htim3                   0x200012e0    0x40  Data  Gb  main.o [1]
+htim4                   0x20001320    0x40  Data  Gb  main.o [1]
+htim5                   0x20001360    0x40  Data  Gb  main.o [1]
+htim6                   0x200013a0    0x40  Data  Gb  main.o [1]
+htim7                   0x200013e0    0x40  Data  Gb  main.o [1]
+htim9                   0x20001420    0x40  Data  Gb  main.o [1]
+huart1                  0x20001620    0x40  Data  Gb  main.o [1]
+huart1_buf              0x2000179c     0x1  Data  Gb  main.o [1]
+huart1_rev_flag         0x2000179d     0x1  Data  Gb  main.o [1]
+huart2                  0x20001660    0x40  Data  Gb  main.o [1]
+huart2_buf              0x2000179e     0x1  Data  Gb  main.o [1]
+huart2_rev_flag         0x2000179f     0x1  Data  Gb  main.o [1]
+huart3                  0x200016a0    0x40  Data  Gb  main.o [1]
+huart3_buf              0x200017a0     0x1  Data  Gb  main.o [1]
+huart3_rev_flag         0x200017a1     0x1  Data  Gb  main.o [1]
+huart4                  0x200015a0    0x40  Data  Gb  main.o [1]
+huart5                  0x200015e0    0x40  Data  Gb  main.o [1]
+huart6                  0x200016e0    0x40  Data  Gb  main.o [1]
+init_mparams            0x08002883    0x32  Code  Lc  dlmalloc.o [3]
+init_top                0x080028b5    0x32  Code  Lc  dlmalloc.o [3]
+ldexp                   0x0801b7e9          Code  Gb  ldexp.o [4]
+ldexpl                  0x0801b7e9          Code  Gb  ldexp.o [4]
+localeconv              0x0801b4c1     0x4  Code  Gb  xlocale_c.o [3]
+main                    0x0801574d   0x436  Code  Gb  main.o [1]
+mbedtls_aes_crypt_cbc   0x0801344b    0xca  Code  Gb  aes.o [1]
+mbedtls_aes_crypt_ecb   0x08013425    0x26  Code  Gb  aes.o [1]
+mbedtls_aes_free        0x0801249b    0x14  Code  Gb  aes.o [1]
+mbedtls_aes_init        0x08012485    0x16  Code  Gb  aes.o [1]
+mbedtls_aes_setkey_dec  0x080126e9   0x11a  Code  Gb  aes.o [1]
+mbedtls_aes_setkey_enc  0x080124af   0x23a  Code  Gb  aes.o [1]
+mbedtls_asn1_get_alg    0x0800db7d    0xbc  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_bitstring
+                        0x0800da3b    0x64  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_bitstring_null
+                        0x0800da9f    0x3e  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_bool   0x0800d963    0x46  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_int    0x0800d9a9    0x60  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_len    0x0800d82d    0xfe  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_mpi    0x0800da09    0x32  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_sequence_of
+                        0x0800dadd    0xa0  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_tag    0x0800d92b    0x38  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_write_len  0x0801c41b   0x12c  Code  Gb  asn1write.o [1]
+mbedtls_asn1_write_mpi  0x0801c565    0xa2  Code  Gb  asn1write.o [1]
+mbedtls_asn1_write_tag  0x0801c547    0x1e  Code  Gb  asn1write.o [1]
+mbedtls_base64_decode   0x08013515   0x17c  Code  Gb  base64.o [1]
+mbedtls_ccm_auth_decrypt
+                        0x0800d6b7    0x4e  Code  Gb  ccm.o [1]
+mbedtls_ccm_encrypt_and_tag
+                        0x0800d5df    0x4e  Code  Gb  ccm.o [1]
+mbedtls_ccm_free        0x0800d0dd    0x14  Code  Gb  ccm.o [1]
+mbedtls_ccm_init        0x0800d065    0x14  Code  Gb  ccm.o [1]
+mbedtls_ccm_setkey      0x0800d079    0x64  Code  Gb  ccm.o [1]
+mbedtls_ccm_star_auth_decrypt
+                        0x0800d62d    0x8a  Code  Gb  ccm.o [1]
+mbedtls_ccm_star_encrypt_and_tag
+                        0x0800d599    0x46  Code  Gb  ccm.o [1]
+mbedtls_cipher_auth_decrypt
+                        0x08009435    0x5e  Code  Gb  cipher.o [1]
+mbedtls_cipher_auth_encrypt
+                        0x080093e1    0x54  Code  Gb  cipher.o [1]
+mbedtls_cipher_crypt    0x0800935f    0x82  Code  Gb  cipher.o [1]
+mbedtls_cipher_definitions
+                        0x08020180    0x80  Data  Gb  cipher_wrap.o [1]
+mbedtls_cipher_finish   0x08009219   0x11e  Code  Gb  cipher.o [1]
+mbedtls_cipher_free     0x08008ecb    0x22  Code  Gb  cipher.o [1]
+mbedtls_cipher_get_block_size
+                        0x08008e21    0x16  Code  Lc  cipher.o [1]
+mbedtls_cipher_get_block_size
+                        0x08006d59    0x16  Code  Lc  ssl_tls.o [1]
+mbedtls_cipher_get_cipher_mode
+                        0x08006d6f    0x16  Code  Lc  ssl_tls.o [1]
+mbedtls_cipher_get_iv_size
+                        0x08008e37    0x20  Code  Lc  cipher.o [1]
+mbedtls_cipher_info_from_type
+                        0x08008e57    0x22  Code  Gb  cipher.o [1]
+mbedtls_cipher_info_from_values
+                        0x08008e79    0x3e  Code  Gb  cipher.o [1]
+mbedtls_cipher_init     0x08008eb7    0x14  Code  Gb  cipher.o [1]
+mbedtls_cipher_reset    0x08009005    0x1a  Code  Gb  cipher.o [1]
+mbedtls_cipher_set_iv   0x08008fad    0x58  Code  Gb  cipher.o [1]
+mbedtls_cipher_set_padding_mode
+                        0x08009337    0x28  Code  Gb  cipher.o [1]
+mbedtls_cipher_setkey   0x08008f2f    0x7e  Code  Gb  cipher.o [1]
+mbedtls_cipher_setup    0x08008eed    0x42  Code  Gb  cipher.o [1]
+mbedtls_cipher_update   0x0800901f   0x1e6  Code  Gb  cipher.o [1]
+mbedtls_clz             0x080005bb    0x18  Code  Lc  bignum.o [1]
+mbedtls_ctr_drbg_init   0x0801aea7    0x16  Code  Gb  ctr_drbg.o [1]
+mbedtls_ctr_drbg_random
+                        0x0801b30f    0x1c  Code  Gb  ctr_drbg.o [1]
+mbedtls_ctr_drbg_random_with_add
+                        0x0801b1ef   0x120  Code  Gb  ctr_drbg.o [1]
+mbedtls_ctr_drbg_reseed
+                        0x0801b145    0xaa  Code  Gb  ctr_drbg.o [1]
+mbedtls_des3_crypt_cbc  0x080123c5    0xc0  Code  Gb  des.o [1]
+mbedtls_des3_crypt_ecb  0x08011f37   0x464  Code  Gb  des.o [1]
+mbedtls_des3_free       0x080116e5    0x14  Code  Gb  des.o [1]
+mbedtls_des3_init       0x080116cf    0x16  Code  Gb  des.o [1]
+mbedtls_des3_set2key_dec
+                        0x08011b31    0x22  Code  Gb  des.o [1]
+mbedtls_des3_set2key_enc
+                        0x08011b0f    0x22  Code  Gb  des.o [1]
+mbedtls_des3_set3key_dec
+                        0x08011c0b    0x22  Code  Gb  des.o [1]
+mbedtls_des3_set3key_enc
+                        0x08011be9    0x22  Code  Gb  des.o [1]
+mbedtls_des_crypt_cbc   0x08011e77    0xc0  Code  Gb  des.o [1]
+mbedtls_des_crypt_ecb   0x08011c2d   0x24a  Code  Gb  des.o [1]
+mbedtls_des_free        0x080116bd    0x12  Code  Gb  des.o [1]
+mbedtls_des_init        0x080116a9    0x14  Code  Gb  des.o [1]
+mbedtls_des_setkey      0x080116f9   0x316  Code  Gb  des.o [1]
+mbedtls_des_setkey_dec  0x08011a21    0x54  Code  Gb  des.o [1]
+mbedtls_des_setkey_enc  0x08011a0f    0x12  Code  Gb  des.o [1]
+mbedtls_ecdh_free       0x0800aa63    0x48  Code  Gb  ecdh.o [1]
+mbedtls_ecdh_init       0x0800aa4d    0x16  Code  Gb  ecdh.o [1]
+mbedtls_ecdsa_free      0x0801c40f     0xc  Code  Gb  ecdsa.o [1]
+mbedtls_ecdsa_from_keypair
+                        0x0801c3c1    0x42  Code  Gb  ecdsa.o [1]
+mbedtls_ecdsa_info      0x08020d38    0x30  Data  Gb  pk_wrap.o [1]
+mbedtls_ecdsa_init      0x0801c403     0xc  Code  Gb  ecdsa.o [1]
+mbedtls_ecdsa_read_signature
+                        0x0801c2f3    0xb6  Code  Gb  ecdsa.o [1]
+mbedtls_ecdsa_sign      0x0801becf   0x1c4  Code  Gb  ecdsa.o [1]
+mbedtls_ecdsa_verify    0x0801c093   0x160  Code  Gb  ecdsa.o [1]
+mbedtls_ecdsa_write_signature
+                        0x0801c283    0x70  Code  Gb  ecdsa.o [1]
+mbedtls_eckey_info      0x08020cd8    0x30  Data  Gb  pk_wrap.o [1]
+mbedtls_eckeydh_info    0x08020d08    0x30  Data  Gb  pk_wrap.o [1]
+mbedtls_ecp_check_privkey
+                        0x08006049    0x84  Code  Gb  ecp.o [1]
+mbedtls_ecp_check_pub_priv
+                        0x0800622d    0xbc  Code  Gb  ecp.o [1]
+mbedtls_ecp_check_pubkey
+                        0x08006005    0x44  Code  Gb  ecp.o [1]
+mbedtls_ecp_copy        0x0800426d    0x3c  Code  Gb  ecp.o [1]
+mbedtls_ecp_curve_info_from_grp_id
+                        0x08004109    0x26  Code  Gb  ecp.o [1]
+mbedtls_ecp_curve_info_from_tls_id
+                        0x0800412f    0x26  Code  Gb  ecp.o [1]
+mbedtls_ecp_curve_list  0x080040c5     0x6  Code  Gb  ecp.o [1]
+mbedtls_ecp_gen_keypair
+                        0x08006205    0x28  Code  Gb  ecp.o [1]
+mbedtls_ecp_gen_keypair_base
+                        0x080060cd   0x134  Code  Gb  ecp.o [1]
+mbedtls_ecp_group_copy  0x080042a9    0x10  Code  Gb  ecp.o [1]
+mbedtls_ecp_group_free  0x080041e7    0x66  Code  Gb  ecp.o [1]
+mbedtls_ecp_group_init  0x0800418f    0x18  Code  Gb  ecp.o [1]
+mbedtls_ecp_group_load  0x0800653d   0x32e  Code  Gb  ecp_curves.o [1]
+mbedtls_ecp_grp_id_list
+                        0x080040cb    0x3e  Code  Gb  ecp.o [1]
+mbedtls_ecp_grp_id_list::init_done
+                        0x20001778     0x4  Data  Lc  ecp.o [1]
+mbedtls_ecp_is_zero     0x080042ef    0x1c  Code  Gb  ecp.o [1]
+mbedtls_ecp_keypair_free
+                        0x0800424d    0x20  Code  Gb  ecp.o [1]
+mbedtls_ecp_keypair_init
+                        0x080041a7    0x20  Code  Gb  ecp.o [1]
+mbedtls_ecp_mul         0x08005cdd    0x94  Code  Gb  ecp.o [1]
+mbedtls_ecp_mul_shortcuts
+                        0x08005edf    0x88  Code  Lc  ecp.o [1]
+mbedtls_ecp_muladd      0x08005f67    0x7e  Code  Gb  ecp.o [1]
+mbedtls_ecp_point_free  0x080041c7    0x20  Code  Gb  ecp.o [1]
+mbedtls_ecp_point_init  0x0800416f    0x20  Code  Gb  ecp.o [1]
+mbedtls_ecp_point_read_binary
+                        0x0800430b    0x94  Code  Gb  ecp.o [1]
+mbedtls_ecp_set_zero    0x080042b9    0x36  Code  Gb  ecp.o [1]
+mbedtls_entropy_add_source
+                        0x080180cd    0x4c  Code  Gb  entropy.o [1]
+mbedtls_entropy_init    0x08018091    0x36  Code  Gb  entropy.o [1]
+mbedtls_hardware_poll   0x0802186d    0x18  Code  Gb  entropy_poll.o [1]
+mbedtls_int_div_int     0x080015af    0x80  Code  Lc  bignum.o [1]
+mbedtls_internal_aes_decrypt
+                        0x08012e29   0x5d4  Code  Gb  aes.o [1]
+mbedtls_internal_aes_encrypt
+                        0x08012803   0x620  Code  Gb  aes.o [1]
+mbedtls_internal_md5_process
+                        0x08010c1f   0x778  Code  Gb  md5.o [1]
+mbedtls_internal_sha1_process
+                        0x08013d91  0x16ba  Code  Gb  sha1.o [1]
+mbedtls_internal_sha256_process
+                        0x08009585  0x11e8  Code  Gb  sha256.o [1]
+mbedtls_md              0x08008bcb    0x1e  Code  Gb  md.o [1]
+mbedtls_md5_clone       0x08010bdb    0x12  Code  Gb  md5.o [1]
+mbedtls_md5_finish      0x08011655    0x10  Code  Gb  md5.o [1]
+mbedtls_md5_finish_ret  0x0801144d    0xf4  Code  Gb  md5.o [1]
+mbedtls_md5_free        0x08010bc9    0x12  Code  Gb  md5.o [1]
+mbedtls_md5_info        0x08020be8    0x30  Data  Gb  md_wrap.o [1]
+mbedtls_md5_init        0x08010bb5    0x14  Code  Gb  md5.o [1]
+mbedtls_md5_ret         0x08011665    0x44  Code  Gb  md5.o [1]
+mbedtls_md5_starts      0x08010c13     0xc  Code  Gb  md5.o [1]
+mbedtls_md5_starts_ret  0x08010bed    0x26  Code  Gb  md5.o [1]
+mbedtls_md5_update      0x08011439    0x14  Code  Gb  md5.o [1]
+mbedtls_md5_update_ret  0x08011397    0xa2  Code  Gb  md5.o [1]
+mbedtls_md_finish       0x08008bab    0x20  Code  Gb  md.o [1]
+mbedtls_md_free         0x08008adf    0x40  Code  Gb  md.o [1]
+mbedtls_md_get_size     0x08008e11    0x10  Code  Gb  md.o [1]
+mbedtls_md_hmac_finish  0x08008d0d    0x8e  Code  Gb  md.o [1]
+mbedtls_md_hmac_reset   0x08008d9b    0x3c  Code  Gb  md.o [1]
+mbedtls_md_hmac_starts  0x08008be9    0xfa  Code  Gb  md.o [1]
+mbedtls_md_hmac_update  0x08008ce3    0x2a  Code  Gb  md.o [1]
+mbedtls_md_info_from_type
+                        0x08008a99    0x32  Code  Gb  md.o [1]
+mbedtls_md_init         0x08008acb    0x14  Code  Gb  md.o [1]
+mbedtls_md_process      0x08008dd7    0x20  Code  Gb  md.o [1]
+mbedtls_md_setup        0x08008b1f    0x4c  Code  Gb  md.o [1]
+mbedtls_md_starts       0x08008b6b    0x1c  Code  Gb  md.o [1]
+mbedtls_md_update       0x08008b87    0x24  Code  Gb  md.o [1]
+mbedtls_mpi_add_abs     0x08000bb7   0x102  Code  Gb  bignum.o [1]
+mbedtls_mpi_add_int     0x08000e53    0x38  Code  Gb  bignum.o [1]
+mbedtls_mpi_add_mpi     0x08000da3    0x58  Code  Gb  bignum.o [1]
+mbedtls_mpi_bitlen      0x080005d3    0x38  Code  Gb  bignum.o [1]
+mbedtls_mpi_cmp_abs     0x08000a27    0x9c  Code  Gb  bignum.o [1]
+mbedtls_mpi_cmp_int     0x08000b81    0x36  Code  Gb  bignum.o [1]
+mbedtls_mpi_cmp_mpi     0x08000ac3    0xbe  Code  Gb  bignum.o [1]
+mbedtls_mpi_copy        0x080002af    0x8e  Code  Gb  bignum.o [1]
+mbedtls_mpi_div_mpi     0x0800162f   0x3bc  Code  Gb  bignum.o [1]
+mbedtls_mpi_exp_mod     0x08001c23   0x4da  Code  Gb  bignum.o [1]
+mbedtls_mpi_fill_random
+                        0x08002227    0x50  Code  Gb  bignum.o [1]
+mbedtls_mpi_free        0x080001ab    0x2a  Code  Gb  bignum.o [1]
+mbedtls_mpi_gcd         0x080020fd   0x12a  Code  Gb  bignum.o [1]
+mbedtls_mpi_get_bit     0x080004e9    0x24  Code  Gb  bignum.o [1]
+mbedtls_mpi_grow        0x080001d5    0x60  Code  Gb  bignum.o [1]
+mbedtls_mpi_init        0x08000199    0x12  Code  Gb  bignum.o [1]
+mbedtls_mpi_inv_mod     0x08002277   0x2d0  Code  Gb  bignum.o [1]
+mbedtls_mpi_is_prime    0x080027dd    0x66  Code  Gb  bignum.o [1]
+mbedtls_mpi_lsb         0x08000585    0x36  Code  Gb  bignum.o [1]
+mbedtls_mpi_lset        0x0800049b    0x4e  Code  Gb  bignum.o [1]
+mbedtls_mpi_mod_int     0x08001a57    0x88  Code  Gb  bignum.o [1]
+mbedtls_mpi_mod_mpi     0x080019eb    0x6c  Code  Gb  bignum.o [1]
+mbedtls_mpi_mul_int     0x0800158b    0x24  Code  Gb  bignum.o [1]
+mbedtls_mpi_mul_mpi     0x080014b1    0xda  Code  Gb  bignum.o [1]
+mbedtls_mpi_read_binary
+                        0x080007c1    0x8e  Code  Gb  bignum.o [1]
+mbedtls_mpi_read_string
+                        0x0800066d   0x154  Code  Gb  bignum.o [1]
+mbedtls_mpi_safe_cond_assign
+                        0x0800033d    0x86  Code  Gb  bignum.o [1]
+mbedtls_mpi_safe_cond_swap
+                        0x080003c3    0xd8  Code  Gb  bignum.o [1]
+mbedtls_mpi_set_bit     0x0800050d    0x78  Code  Gb  bignum.o [1]
+mbedtls_mpi_shift_l     0x080008a3    0xca  Code  Gb  bignum.o [1]
+mbedtls_mpi_shift_r     0x0800096d    0xba  Code  Gb  bignum.o [1]
+mbedtls_mpi_shrink      0x08000235    0x7a  Code  Gb  bignum.o [1]
+mbedtls_mpi_size        0x0800060b    0x10  Code  Gb  bignum.o [1]
+mbedtls_mpi_sub_abs     0x08000d1d    0x86  Code  Gb  bignum.o [1]
+mbedtls_mpi_sub_int     0x08000e8b    0x38  Code  Gb  bignum.o [1]
+mbedtls_mpi_sub_mpi     0x08000dfb    0x58  Code  Gb  bignum.o [1]
+mbedtls_mpi_write_binary
+                        0x0800084f    0x54  Code  Gb  bignum.o [1]
+mbedtls_mpi_zeroize     0x08000189    0x10  Code  Lc  bignum.o [1]
+mbedtls_net_connect     0x08018183    0x4e  Code  Gb  net_sockets.o [1]
+mbedtls_net_init        0x0801815d    0x26  Code  Gb  net_sockets.o [1]
+mbedtls_net_recv        0x080181d1     0x6  Code  Gb  net_sockets.o [1]
+mbedtls_net_send        0x080181d7    0x34  Code  Gb  net_sockets.o [1]
+mbedtls_oid_get_ec_grp  0x0800e37f    0x20  Code  Gb  oid.o [1]
+mbedtls_oid_get_oid_by_md
+                        0x0800e39f    0x2e  Code  Gb  oid.o [1]
+mbedtls_oid_get_pk_alg  0x0800e31f    0x20  Code  Gb  oid.o [1]
+mbedtls_oid_get_sig_alg
+                        0x0800e2b9    0x26  Code  Gb  oid.o [1]
+mbedtls_oid_get_x509_ext_type
+                        0x0800e259    0x20  Code  Gb  oid.o [1]
+mbedtls_pem_free        0x0800f0f5    0x28  Code  Gb  pem.o [1]
+mbedtls_pem_init        0x0800eab1    0x14  Code  Gb  pem.o [1]
+mbedtls_pem_read_buffer
+                        0x0800ed7d   0x33a  Code  Gb  pem.o [1]
+mbedtls_pk_can_do       0x0800d7f5    0x20  Code  Gb  pk.o [1]
+mbedtls_pk_ec           0x0800e3e5     0x4  Code  Lc  pkparse.o [1]
+mbedtls_pk_ec           0x0800b621     0x4  Code  Lc  ssl_srv.o [1]
+mbedtls_pk_free         0x0800d771    0x22  Code  Gb  pk.o [1]
+mbedtls_pk_info_from_type
+                        0x0800d793    0x32  Code  Gb  pk.o [1]
+mbedtls_pk_parse_subpubkey
+                        0x0800e93f   0x11a  Code  Gb  pkparse.o [1]
+mbedtls_pk_rsa          0x0800e3e1     0x4  Code  Lc  pkparse.o [1]
+mbedtls_pk_setup        0x0800d7c5    0x30  Code  Gb  pk.o [1]
+mbedtls_platform_zeroize
+                        0x08002849    0x18  Code  Gb  platform_util.o [1]
+mbedtls_rsa_check_privkey
+                        0x0800f55d    0x80  Code  Gb  rsa.o [1]
+mbedtls_rsa_check_pub_priv
+                        0x0800f5dd    0x4a  Code  Gb  rsa.o [1]
+mbedtls_rsa_check_pubkey
+                        0x0800f4ff    0x5e  Code  Gb  rsa.o [1]
+mbedtls_rsa_complete    0x0800f2e3   0x1e6  Code  Gb  rsa.o [1]
+mbedtls_rsa_deduce_crt  0x08013c99    0x86  Code  Gb  rsa_internal.o [1]
+mbedtls_rsa_deduce_primes
+                        0x08013695   0x1fe  Code  Gb  rsa_internal.o [1]
+mbedtls_rsa_deduce_private_exponent
+                        0x08013893    0xd4  Code  Gb  rsa_internal.o [1]
+mbedtls_rsa_free        0x08010b2d    0x6e  Code  Gb  rsa.o [1]
+mbedtls_rsa_get_len     0x0800f4fb     0x4  Code  Gb  rsa.o [1]
+mbedtls_rsa_import_raw  0x0800f159    0xaa  Code  Gb  rsa.o [1]
+mbedtls_rsa_info        0x08020ca8    0x30  Data  Gb  pk_wrap.o [1]
+mbedtls_rsa_init        0x0800f4c9    0x28  Code  Gb  rsa.o [1]
+mbedtls_rsa_pkcs1_decrypt
+                        0x080101fb    0x7a  Code  Gb  rsa.o [1]
+mbedtls_rsa_pkcs1_encrypt
+                        0x0800fdf3    0x6e  Code  Gb  rsa.o [1]
+mbedtls_rsa_pkcs1_sign  0x080106e1    0x74  Code  Gb  rsa.o [1]
+mbedtls_rsa_pkcs1_verify
+                        0x08010aa5    0x72  Code  Gb  rsa.o [1]
+mbedtls_rsa_private     0x0800f7b5   0x2e6  Code  Gb  rsa.o [1]
+mbedtls_rsa_public      0x0800f627    0x92  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsaes_oaep_decrypt
+                        0x0800fe61   0x202  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsaes_oaep_encrypt
+                        0x0800fb65   0x170  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsaes_pkcs1_v15_decrypt
+                        0x08010069   0x192  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsaes_pkcs1_v15_encrypt
+                        0x0800fcd5   0x11e  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsassa_pkcs1_v15_sign
+                        0x080105ed    0xf0  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsassa_pkcs1_v15_verify
+                        0x080109d5    0xd0  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsassa_pss_sign
+                        0x08010279   0x1e8  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsassa_pss_verify
+                        0x08010973    0x62  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsassa_pss_verify_ext
+                        0x08010755   0x21e  Code  Gb  rsa.o [1]
+mbedtls_rsa_set_padding
+                        0x0800f4f1     0xa  Code  Gb  rsa.o [1]
+mbedtls_rsa_validate_crt
+                        0x08013967   0x144  Code  Gb  rsa_internal.o [1]
+mbedtls_rsa_validate_params
+                        0x08013aab   0x1e0  Code  Gb  rsa_internal.o [1]
+mbedtls_safer_memcmp    0x0800f131    0x28  Code  Lc  rsa.o [1]
+mbedtls_sha1_clone      0x08013d47    0x12  Code  Gb  sha1.o [1]
+mbedtls_sha1_finish_ret
+                        0x080154ed   0x10a  Code  Gb  sha1.o [1]
+mbedtls_sha1_free       0x08013d35    0x12  Code  Gb  sha1.o [1]
+mbedtls_sha1_info       0x08020c18    0x30  Data  Gb  md_wrap.o [1]
+mbedtls_sha1_init       0x08013d21    0x14  Code  Gb  sha1.o [1]
+mbedtls_sha1_ret        0x08015605    0x44  Code  Gb  sha1.o [1]
+mbedtls_sha1_starts_ret
+                        0x08013d59    0x22  Code  Gb  sha1.o [1]
+mbedtls_sha1_update_ret
+                        0x0801544b    0xa2  Code  Gb  sha1.o [1]
+mbedtls_sha224_info     0x08020c48    0x30  Data  Gb  md_wrap.o [1]
+mbedtls_sha256_clone    0x080094db    0x12  Code  Gb  sha256.o [1]
+mbedtls_sha256_finish_ret
+                        0x0800a80f   0x152  Code  Gb  sha256.o [1]
+mbedtls_sha256_free     0x080094c9    0x12  Code  Gb  sha256.o [1]
+mbedtls_sha256_info     0x08020c78    0x30  Data  Gb  md_wrap.o [1]
+mbedtls_sha256_init     0x080094b5    0x14  Code  Gb  sha256.o [1]
+mbedtls_sha256_ret      0x0800a969    0x4c  Code  Gb  sha256.o [1]
+mbedtls_sha256_starts_ret
+                        0x080094ed    0x56  Code  Gb  sha256.o [1]
+mbedtls_sha256_update_ret
+                        0x0800a76d    0xa2  Code  Gb  sha256.o [1]
+mbedtls_ssl_check_cert_usage
+                        0x08008a5d     0xa  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_ciphersuite_cert_req_allowed
+                        0x0800aaad    0x18  Code  Lc  ssl_cli.o [1]
+mbedtls_ssl_ciphersuite_from_id
+                        0x0800cfed    0x1c  Code  Gb  ssl_ciphersuites.o [1]
+mbedtls_ssl_ciphersuite_no_pfs
+                        0x0800b625    0x20  Code  Lc  ssl_srv.o [1]
+mbedtls_ssl_ciphersuite_uses_ec
+                        0x0800d03b    0x18  Code  Gb  ssl_ciphersuites.o [1]
+mbedtls_ssl_ciphersuite_uses_psk
+                        0x0800d053    0x12  Code  Gb  ssl_ciphersuites.o [1]
+mbedtls_ssl_conf_authmode
+                        0x080086e9     0xa  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_conf_ca_chain
+                        0x08008711     0x6  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_conf_endpoint
+                        0x080086d5     0xa  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_conf_rng    0x080086f3     0x6  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_conf_transport
+                        0x080086df     0xa  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_config_defaults
+                        0x080089bf    0x92  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_config_init
+                        0x080089ab    0x14  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_derive_keys
+                        0x08006f61   0x3a8  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_fetch_input
+                        0x08007b71    0x9e  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_flush_output
+                        0x08007c21    0xc2  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_get_ciphersuite_sig_pk_alg
+                        0x0800d011    0x2a  Code  Gb  ssl_ciphersuites.o [1]
+mbedtls_ssl_get_record_expansion
+                        0x080087a3    0x48  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_handle_message_type
+                        0x08008057    0x62  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_handshake   0x08008835    0x2c  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_handshake_client_step
+                        0x0800b4fb    0xfa  Code  Gb  ssl_cli.o [1]
+mbedtls_ssl_handshake_free
+                        0x0800893f    0x48  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_handshake_server_step
+                        0x0800c2c5    0xfa  Code  Gb  ssl_srv.o [1]
+mbedtls_ssl_handshake_step
+                        0x080087eb    0x40  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_handshake_wrapup
+                        0x08008311    0x54  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_hdr_len     0x0800b645     0x6  Code  Lc  ssl_srv.o [1]
+mbedtls_ssl_hdr_len     0x08006d85     0x6  Code  Lc  ssl_tls.o [1]
+mbedtls_ssl_hs_hdr_len  0x0800aac5     0x6  Code  Lc  ssl_cli.o [1]
+mbedtls_ssl_hs_hdr_len  0x0800b64b     0x6  Code  Lc  ssl_srv.o [1]
+mbedtls_ssl_hs_hdr_len  0x08006d8b     0x6  Code  Lc  ssl_tls.o [1]
+mbedtls_ssl_init        0x08008615    0x14  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_list_ciphersuites
+                        0x0800cfe9     0x4  Code  Gb  ssl_ciphersuites.o [1]
+mbedtls_ssl_optimize_checksum
+                        0x08008219    0x14  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_parse_certificate
+                        0x0800812b    0x2e  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_parse_change_cipher_spec
+                        0x0800818b    0x8e  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_parse_finished
+                        0x08008429    0xc8  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_prepare_handshake_record
+                        0x08007dd5    0x46  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_psk_derive_premaster
+                        0x08007335    0xd0  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_read_record
+                        0x08007f45    0x56  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_read_record_layer
+                        0x08007f9b    0xbc  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_read_version
+                        0x08008a6d     0xe  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_safer_memcmp
+                        0x0800b651    0x32  Code  Lc  ssl_srv.o [1]
+mbedtls_ssl_safer_memcmp
+                        0x08006d91    0x32  Code  Lc  ssl_tls.o [1]
+mbedtls_ssl_send_alert_message
+                        0x080080b9    0x44  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_session_free
+                        0x08008987    0x24  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_session_init
+                        0x0800855b    0x14  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_set_bio     0x080086f9    0x10  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_set_hostname
+                        0x08008721    0x82  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_setup       0x08008629    0xa0  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_transform_free
+                        0x0800890d    0x32  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_update_handshake_status
+                        0x08007e1b    0x20  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_write       0x080088cb    0x3a  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_write_certificate
+                        0x080080fd    0x2e  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_write_change_cipher_spec
+                        0x08008159    0x32  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_write_finished
+                        0x08008365    0xc4  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_write_record
+                        0x08007ce9    0xec  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_write_version
+                        0x08008a67     0x6  Code  Gb  ssl_tls.o [1]
+mbedtls_x509_crt_free   0x0800cf23    0xc4  Code  Gb  x509_crt.o [1]
+mbedtls_x509_crt_init   0x0800cf0d    0x16  Code  Gb  x509_crt.o [1]
+mbedtls_x509_crt_parse  0x0800cda9   0x11a  Code  Gb  x509_crt.o [1]
+mbedtls_x509_crt_parse_der
+                        0x0800cd11    0x98  Code  Gb  x509_crt.o [1]
+mbedtls_x509_crt_profile_default
+                        0x08021c44    0x10  Data  Gb  x509_crt.o [1]
+mbedtls_x509_crt_profile_suiteb
+                        0x08021c54    0x10  Data  Gb  x509_crt.o [1]
+mbedtls_x509_get_alg    0x0800dc97    0x28  Code  Gb  x509.o [1]
+mbedtls_x509_get_ext    0x0800e17b    0x6e  Code  Gb  x509.o [1]
+mbedtls_x509_get_name   0x0800ddb1    0x9e  Code  Gb  x509.o [1]
+mbedtls_x509_get_serial
+                        0x0800dc39    0x5e  Code  Gb  x509.o [1]
+mbedtls_x509_get_sig    0x0800e0df    0x48  Code  Gb  x509.o [1]
+mbedtls_x509_get_sig_alg
+                        0x0800e127    0x54  Code  Gb  x509.o [1]
+mbedtls_x509_get_time   0x0800e06d    0x72  Code  Gb  x509.o [1]
+md5_clone_wrap          0x0801ef05    0x10  Code  Lc  md_wrap.o [1]
+md5_ctx                 0x2000115c    0x58  Data  Gb  mbedtls.o [1]
+md5_ctx_alloc           0x0801eed9    0x1a  Code  Lc  md_wrap.o [1]
+md5_ctx_free            0x0801eef3    0x12  Code  Lc  md_wrap.o [1]
+md5_finish_wrap         0x0801eec9    0x10  Code  Lc  md_wrap.o [1]
+md5_padding             0x080206c8    0x40  Data  Lc  md5.o [1]
+md5_process_wrap        0x0801ef15    0x10  Code  Lc  md_wrap.o [1]
+md5_starts_wrap         0x0801eea9     0xc  Code  Lc  md_wrap.o [1]
+md5_update_wrap         0x0801eeb5    0x14  Code  Lc  md_wrap.o [1]
+memchr                  0x0801b511          Code  Gb  memchr.o [5]
+memcmp                  0x0800d709          Code  Gb  memcmp.o [5]
+memset                  0x08021a11    0x14  Code  Gb  memset.o [5]
+memset_func             0x20000520     0x4  Data  Lc  platform_util.o [1]
+mgf_mask                0x0800fa9b    0xca  Code  Lc  rsa.o [1]
+mparams                 0x20001740    0x18  Data  Lc  dlmalloc.o [3]
+mpi_check_small_factors
+                        0x08002547    0x64  Code  Lc  bignum.o [1]
+mpi_get_digit           0x0800061b    0x52  Code  Lc  bignum.o [1]
+mpi_miller_rabin        0x080025ab   0x232  Code  Lc  bignum.o [1]
+mpi_montg_init          0x08001adf    0x2e  Code  Lc  bignum.o [1]
+mpi_montmul             0x08001b0d    0xe8  Code  Lc  bignum.o [1]
+mpi_montred             0x08001bf5    0x2e  Code  Lc  bignum.o [1]
+mpi_mul_hlp             0x08000ec3   0x5ee  Code  Lc  bignum.o [1]
+mpi_sub_hlp             0x08000cb9    0x64  Code  Lc  bignum.o [1]
+obuf                    0x20001208    0x50  Data  Lc  xfiles.o [3]
+oid_ecp_grp             0x0801feb8    0xf0  Data  Lc  oid.o [1]
+oid_grp_id_from_asn1    0x0800e33f    0x40  Code  Lc  oid.o [1]
+oid_md_alg              0x08020278    0x64  Data  Lc  oid.o [1]
+oid_pk_alg              0x080202dc    0x50  Data  Lc  oid.o [1]
+oid_pk_alg_from_asn1    0x0800e2df    0x40  Code  Lc  oid.o [1]
+oid_sig_alg             0x0801ffa8    0xc8  Data  Lc  oid.o [1]
+oid_sig_alg_from_asn1   0x0800e279    0x40  Code  Lc  oid.o [1]
+oid_x509_ext            0x08020200    0x78  Data  Lc  oid.o [1]
+oid_x509_ext_from_asn1  0x0800e219    0x40  Code  Lc  oid.o [1]
+os_get_random           0x0801803d    0x54  Code  Gb  mbedtls.o [1]
+ota_server_root_cert    0x2000001c   0x504  Data  Gb  main.o [1]
+pem_aes_decrypt         0x0800ed13    0x6a  Code  Lc  pem.o [1]
+pem_des3_decrypt        0x0800ecaf    0x64  Code  Lc  pem.o [1]
+pem_des_decrypt         0x0800ec4b    0x64  Code  Lc  pem.o [1]
+pem_get_iv              0x0800eac5    0x8a  Code  Lc  pem.o [1]
+pem_pbkdf1              0x0800eb4f    0xfc  Code  Lc  pem.o [1]
+pk_get_ecpubkey         0x0800e787    0x30  Code  Lc  pkparse.o [1]
+pk_get_pk_alg           0x0800e8c7    0x78  Code  Lc  pkparse.o [1]
+pk_get_rsapubkey        0x0800e7b7   0x110  Code  Lc  pkparse.o [1]
+pk_group_from_specified
+                        0x0800e3e9   0x23a  Code  Lc  pkparse.o [1]
+pk_group_id_from_group  0x0800e623    0xd2  Code  Lc  pkparse.o [1]
+pk_group_id_from_specified
+                        0x0800e6f5    0x32  Code  Lc  pkparse.o [1]
+pk_use_ecparams         0x0800e727    0x60  Code  Lc  pkparse.o [1]
+prepend_alloc           0x080028e7   0x342  Code  Lc  dlmalloc.o [3]
+printf                  0x08016be9    0x28  Code  Gb  printf.o [3]
+putchar                 0x0802189d     0xc  Code  Gb  putchar.o [3]
+rand                    0x0801b32d    0x96  Code  Gb  rand.o [3]
+rsa_alloc_wrap          0x0801e773    0x1e  Code  Lc  pk_wrap.o [1]
+rsa_can_do              0x0801e609    0x16  Code  Lc  pk_wrap.o [1]
+rsa_check_context       0x0800f203    0xe0  Code  Lc  rsa.o [1]
+rsa_check_pair_wrap     0x0801e763    0x10  Code  Lc  pk_wrap.o [1]
+rsa_debug               0x0801e7a3    0x20  Code  Lc  pk_wrap.o [1]
+rsa_decrypt_wrap        0x0801e6c9    0x4c  Code  Lc  pk_wrap.o [1]
+rsa_encrypt_wrap        0x0801e715    0x4e  Code  Lc  pk_wrap.o [1]
+rsa_free_wrap           0x0801e791    0x12  Code  Lc  pk_wrap.o [1]
+rsa_get_bitlen          0x0801e61f     0xe  Code  Lc  pk_wrap.o [1]
+rsa_prepare_blinding    0x0800f6b9    0xf8  Code  Lc  rsa.o [1]
+rsa_rsassa_pkcs1_v15_encode
+                        0x08010465   0x188  Code  Lc  rsa.o [1]
+rsa_sign_wrap           0x0801e685    0x44  Code  Lc  pk_wrap.o [1]
+rsa_verify_wrap         0x0801e62d    0x58  Code  Lc  pk_wrap.o [1]
+saved_session           0x2000109c    0x68  Data  Gb  mbedtls.o [1]
+scalbln                 0x0801b7e9          Code  Gb  ldexp.o [4]
+scalblnl                0x0801b7e9          Code  Gb  ldexp.o [4]
+scalbn                  0x0801b7e9          Code  Gb  ldexp.o [4]
+scalbnl                 0x0801b7e9          Code  Gb  ldexp.o [4]
+scale                   0x08019ce7    0x46  Code  Lc  xprintffull.o [3]
+sec_hand                0x20001798     0x4  Data  Lc  xfail_s.o [3]
+secp192k1_a             0x0802205c     0x4  Data  Lc  ecp_curves.o [1]
+secp192k1_b             0x08022060     0x4  Data  Lc  ecp_curves.o [1]
+secp192k1_gx            0x080216d4    0x18  Data  Lc  ecp_curves.o [1]
+secp192k1_gy            0x080216ec    0x18  Data  Lc  ecp_curves.o [1]
+secp192k1_n             0x08021704    0x18  Data  Lc  ecp_curves.o [1]
+secp192k1_p             0x080216bc    0x18  Data  Lc  ecp_curves.o [1]
+secp192r1_b             0x0802165c    0x18  Data  Lc  ecp_curves.o [1]
+secp192r1_gx            0x08021674    0x18  Data  Lc  ecp_curves.o [1]
+secp192r1_gy            0x0802168c    0x18  Data  Lc  ecp_curves.o [1]
+secp192r1_n             0x080216a4    0x18  Data  Lc  ecp_curves.o [1]
+secp192r1_p             0x08021644    0x18  Data  Lc  ecp_curves.o [1]
+secp224k1_a             0x08022064     0x4  Data  Lc  ecp_curves.o [1]
+secp224k1_b             0x08022068     0x4  Data  Lc  ecp_curves.o [1]
+secp224k1_gx            0x080214fc    0x1c  Data  Lc  ecp_curves.o [1]
+secp224k1_gy            0x08021518    0x1c  Data  Lc  ecp_curves.o [1]
+secp224k1_n             0x08021000    0x20  Data  Lc  ecp_curves.o [1]
+secp224k1_p             0x080214e0    0x1c  Data  Lc  ecp_curves.o [1]
+secp224r1_b             0x08021470    0x1c  Data  Lc  ecp_curves.o [1]
+secp224r1_gx            0x0802148c    0x1c  Data  Lc  ecp_curves.o [1]
+secp224r1_gy            0x080214a8    0x1c  Data  Lc  ecp_curves.o [1]
+secp224r1_n             0x080214c4    0x1c  Data  Lc  ecp_curves.o [1]
+secp224r1_p             0x08020f40    0x20  Data  Lc  ecp_curves.o [1]
+secp256k1_a             0x0802206c     0x4  Data  Lc  ecp_curves.o [1]
+secp256k1_b             0x08022070     0x4  Data  Lc  ecp_curves.o [1]
+secp256k1_gx            0x08021040    0x20  Data  Lc  ecp_curves.o [1]
+secp256k1_gy            0x08021060    0x20  Data  Lc  ecp_curves.o [1]
+secp256k1_n             0x08021080    0x20  Data  Lc  ecp_curves.o [1]
+secp256k1_p             0x08021020    0x20  Data  Lc  ecp_curves.o [1]
+secp256r1_b             0x08020f80    0x20  Data  Lc  ecp_curves.o [1]
+secp256r1_gx            0x08020fa0    0x20  Data  Lc  ecp_curves.o [1]
+secp256r1_gy            0x08020fc0    0x20  Data  Lc  ecp_curves.o [1]
+secp256r1_n             0x08020fe0    0x20  Data  Lc  ecp_curves.o [1]
+secp256r1_p             0x08020f60    0x20  Data  Lc  ecp_curves.o [1]
+secp384r1_b             0x080209a8    0x30  Data  Lc  ecp_curves.o [1]
+secp384r1_gx            0x080209d8    0x30  Data  Lc  ecp_curves.o [1]
+secp384r1_gy            0x08020a08    0x30  Data  Lc  ecp_curves.o [1]
+secp384r1_n             0x08020a38    0x30  Data  Lc  ecp_curves.o [1]
+secp384r1_p             0x08020978    0x30  Data  Lc  ecp_curves.o [1]
+secp521r1_b             0x080203b8    0x44  Data  Lc  ecp_curves.o [1]
+secp521r1_gx            0x080203fc    0x44  Data  Lc  ecp_curves.o [1]
+secp521r1_gy            0x08020440    0x44  Data  Lc  ecp_curves.o [1]
+secp521r1_n             0x08020484    0x44  Data  Lc  ecp_curves.o [1]
+secp521r1_p             0x08020374    0x44  Data  Lc  ecp_curves.o [1]
+segment_holding         0x08002865    0x1e  Code  Lc  dlmalloc.o [3]
+server_fd               0x2000178c     0x4  Data  Gb  mbedtls.o [1]
+sha1_clone_wrap         0x0801ef6f    0x10  Code  Lc  md_wrap.o [1]
+sha1_ctx_alloc          0x0801ef55    0x1a  Code  Lc  md_wrap.o [1]
+sha1_ctx_free           0x0801ef7f    0x12  Code  Lc  md_wrap.o [1]
+sha1_finish_wrap        0x0801ef45    0x10  Code  Lc  md_wrap.o [1]
+sha1_padding            0x08020708    0x40  Data  Lc  sha1.o [1]
+sha1_process_wrap       0x0801ef91    0x10  Code  Lc  md_wrap.o [1]
+sha1_starts_wrap        0x0801ef25     0xc  Code  Lc  md_wrap.o [1]
+sha1_update_wrap        0x0801ef31    0x14  Code  Lc  md_wrap.o [1]
+sha224_clone_wrap       0x0801f015    0x10  Code  Lc  md_wrap.o [1]
+sha224_ctx_alloc        0x0801efe9    0x1a  Code  Lc  md_wrap.o [1]
+sha224_ctx_free         0x0801f003    0x12  Code  Lc  md_wrap.o [1]
+sha224_finish_wrap      0x0801efc3    0x10  Code  Lc  md_wrap.o [1]
+sha224_process_wrap     0x0801f025    0x10  Code  Lc  md_wrap.o [1]
+sha224_starts_wrap      0x0801efa1     0xe  Code  Lc  md_wrap.o [1]
+sha224_update_wrap      0x0801efaf    0x14  Code  Lc  md_wrap.o [1]
+sha224_wrap             0x0801efd3    0x16  Code  Lc  md_wrap.o [1]
+sha256_padding          0x08020748    0x40  Data  Lc  sha256.o [1]
+sha256_starts_wrap      0x0801f035     0xe  Code  Lc  md_wrap.o [1]
+sha256_wrap             0x0801f043    0x16  Code  Lc  md_wrap.o [1]
+small_prime             0x0801e9c8   0x2a0  Data  Lc  bignum.o [1]
+snprintf                0x08018119    0x44  Code  Gb  snprintf.o [3]
+sprintf                 0x0801b3dd    0x40  Code  Gb  sprintf.o [3]
+srand                   0x0801b3c3     0xa  Code  Gb  rand.o [3]
+ssl                     0x20000e5c    0xb4  Data  Gb  mbedtls.o [1]
+ssl_calc_finished_tls_sha256
+                        0x08008261    0x76  Code  Lc  ssl_tls.o [1]
+ssl_calc_verify_tls_sha256
+                        0x08007309    0x2c  Code  Lc  ssl_tls.o [1]
+ssl_check_key_curve     0x0800b7b5    0x32  Code  Lc  ssl_srv.o [1]
+ssl_check_timer         0x08006dc9    0x22  Code  Lc  ssl_tls.o [1]
+ssl_ciphersuite_match   0x0800b891    0x9e  Code  Lc  ssl_srv.o [1]
+ssl_decrypt_buf         0x080076f1   0x480  Code  Lc  ssl_tls.o [1]
+ssl_encrypt_buf         0x08007405   0x2e4  Code  Lc  ssl_tls.o [1]
+ssl_ep_len              0x08006dc3     0x6  Code  Lc  ssl_tls.o [1]
+ssl_generate_random     0x0800abdf    0x4a  Code  Lc  ssl_cli.o [1]
+ssl_handshake_init      0x0800856f    0xa6  Code  Lc  ssl_tls.o [1]
+ssl_handshake_params_init
+                        0x080084f1    0x36  Code  Lc  ssl_tls.o [1]
+ssl_handshake_wrapup_free_hs_transform
+                        0x080082e1    0x30  Code  Lc  ssl_tls.o [1]
+ssl_parse_certificate_request
+                        0x0800b379    0x20  Code  Lc  ssl_cli.o [1]
+ssl_parse_certificate_verify
+                        0x0800c289    0x32  Code  Lc  ssl_srv.o [1]
+ssl_parse_client_hello  0x0800b92f   0x4dc  Code  Lc  ssl_srv.o [1]
+ssl_parse_client_key_exchange
+                        0x0800c1eb    0x9e  Code  Lc  ssl_srv.o [1]
+ssl_parse_client_psk_identity
+                        0x0800c11b    0xd0  Code  Lc  ssl_srv.o [1]
+ssl_parse_record_header
+                        0x08007e3b    0xd6  Code  Lc  ssl_tls.o [1]
+ssl_parse_renegotiation_info
+                        0x0800ae39    0x2c  Code  Lc  ssl_cli.o [1]
+ssl_parse_renegotiation_info
+                        0x0800b683    0x2c  Code  Lc  ssl_srv.o [1]
+ssl_parse_server_hello  0x0800aec7   0x3ac  Code  Lc  ssl_cli.o [1]
+ssl_parse_server_hello_done
+                        0x0800b399    0x4a  Code  Lc  ssl_cli.o [1]
+ssl_parse_server_key_exchange
+                        0x0800b2b7    0xc2  Code  Lc  ssl_cli.o [1]
+ssl_parse_server_psk_hint
+                        0x0800b273    0x44  Code  Lc  ssl_cli.o [1]
+ssl_parse_supported_elliptic_curves
+                        0x0800b6af    0xbe  Code  Lc  ssl_srv.o [1]
+ssl_parse_supported_point_formats
+                        0x0800b76d    0x48  Code  Lc  ssl_srv.o [1]
+ssl_parse_supported_point_formats_ext
+                        0x0800ae65    0x62  Code  Lc  ssl_cli.o [1]
+ssl_pick_cert           0x0800b7e7    0xaa  Code  Lc  ssl_srv.o [1]
+ssl_prepare_record_content
+                        0x08007f11    0x34  Code  Lc  ssl_tls.o [1]
+ssl_prepare_server_key_exchange
+                        0x0800c071    0x10  Code  Lc  ssl_srv.o [1]
+ssl_preset_suiteb_ciphersuites
+                        0x20000524     0xc  Data  Lc  ssl_tls.o [1]
+ssl_preset_suiteb_curves
+                        0x20000530     0x4  Data  Lc  ssl_tls.o [1]
+ssl_transform_init      0x08008527    0x34  Code  Lc  ssl_tls.o [1]
+ssl_update_checksum_sha256
+                        0x08008249    0x18  Code  Lc  ssl_tls.o [1]
+ssl_update_checksum_start
+                        0x0800822d    0x18  Code  Lc  ssl_tls.o [1]
+ssl_validate_ciphersuite
+                        0x0800ac29    0x22  Code  Lc  ssl_cli.o [1]
+ssl_write_certificate_request
+                        0x0800c03d    0x34  Code  Lc  ssl_srv.o [1]
+ssl_write_certificate_verify
+                        0x0800b4b7    0x44  Code  Lc  ssl_cli.o [1]
+ssl_write_client_hello  0x0800ac4b   0x1ee  Code  Lc  ssl_cli.o [1]
+ssl_write_client_key_exchange
+                        0x0800b3e3    0xd4  Code  Lc  ssl_cli.o [1]
+ssl_write_real          0x08008871    0x5a  Code  Lc  ssl_tls.o [1]
+ssl_write_renegotiation_ext
+                        0x0800be0b    0x38  Code  Lc  ssl_srv.o [1]
+ssl_write_server_hello  0x0800be83   0x1ba  Code  Lc  ssl_srv.o [1]
+ssl_write_server_hello_done
+                        0x0800c0e9    0x32  Code  Lc  ssl_srv.o [1]
+ssl_write_server_key_exchange
+                        0x0800c081    0x68  Code  Lc  ssl_srv.o [1]
+ssl_write_supported_elliptic_curves_ext
+                        0x0800aacb    0xcc  Code  Lc  ssl_cli.o [1]
+ssl_write_supported_point_formats_ext
+                        0x0800ab97    0x48  Code  Lc  ssl_cli.o [1]
+ssl_write_supported_point_formats_ext
+                        0x0800be43    0x40  Code  Lc  ssl_srv.o [1]
+strchr                  0x08010b9d          Code  Gb  strchr.o [5]
+strlen                  0x08003f2d          Code  Gb  strlen.o [5]
+strstr                  0x0800ea81    0x30  Code  Gb  strstr.o [3]
+sys_alloc               0x08002e31   0x160  Code  Lc  dlmalloc.o [3]
+sys_trim                0x08002f91    0x66  Code  Lc  dlmalloc.o [3]
+systicks                0x200017a6     0x1  Data  Gb  main.o [1]
+time                    0x0800d705     0x4  Code  Gb  time_trampoline.o [3]
+tls_prf_generic         0x08006deb   0x13e  Code  Lc  ssl_tls.o [1]
+tls_prf_sha256          0x08006f29    0x38  Code  Lc  ssl_tls.o [1]
+tmalloc_large           0x08003005   0x38e  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0x08003393   0x204  Code  Lc  dlmalloc.o [3]
+uwTick                  0x20001790     0x4  Data  Gb  stm32f4xx_hal.o [1]
+uwTickFreq              0x2000060d     0x1  Data  Gb  stm32f4xx_hal.o [1]
+uwTickPrio              0x20000534     0x4  Data  Gb  stm32f4xx_hal.o [1]
+x509_crt_parse_der_core
+                        0x0800c975   0x39c  Code  Lc  x509_crt.o [1]
+x509_date_is_valid      0x0800de93    0xd2  Code  Lc  x509.o [1]
+x509_get_attr_type_value
+                        0x0800dcbf    0xf2  Code  Lc  x509.o [1]
+x509_get_basic_constraints
+                        0x0800c4fd    0xb6  Code  Lc  x509_crt.o [1]
+x509_get_crt_ext        0x0800c78f   0x1e6  Code  Lc  x509_crt.o [1]
+x509_get_dates          0x0800c447    0x6a  Code  Lc  x509_crt.o [1]
+x509_get_ext_key_usage  0x0800c65b    0x32  Code  Lc  x509_crt.o [1]
+x509_get_key_usage      0x0800c5f9    0x62  Code  Lc  x509_crt.o [1]
+x509_get_ns_cert_type   0x0800c5b3    0x46  Code  Lc  x509_crt.o [1]
+x509_get_subject_alt_name
+                        0x0800c68d   0x102  Code  Lc  x509_crt.o [1]
+x509_get_uid            0x0800c4b1    0x4c  Code  Lc  x509_crt.o [1]
+x509_get_version        0x0800c3e5    0x62  Code  Lc  x509_crt.o [1]
+x509_parse_int          0x0800de4f    0x44  Code  Lc  x509.o [1]
+x509_parse_time         0x0800df65   0x108  Code  Lc  x509.o [1]
+
+
+[1] = G:\WORK\STM32H7\ALL_AT_Aliyun\EWARM\ALL_AT_Aliyun\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  119 111 bytes of readonly  code memory
+   21 902 bytes of readonly  data memory
+  100 261 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
